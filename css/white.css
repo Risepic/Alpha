@@ -4,3 +4,14 @@ html, body {
 header {
   background-color: #ffffff;
 }
+.qbox {background-color: #ffffff;}
+
+.qbox-chat .q-who {
+  color: #000000;
+}
+.qbox-chat .q-when {
+  color: #a0a0a0;
+}
+.question h6 {
+  color: #000000;
+}
