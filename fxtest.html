@@ -6,40 +6,8 @@
       <link rel="stylesheet" href="./css/base.css">
       <link rel="stylesheet" href="./css/objects.css">
       <link rel="stylesheet" href="./css/white.css">
-      <link type="text/css" href="/dist/skin/pink.flag/css/jplayer.pink.flag.min.css" rel="stylesheet" />
+      <link type="text/css" href="css/jplayer.pink.flag.css" rel="stylesheet" />
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-<<<<<<< HEAD
-
-=======
-         <!-- Dummy CSS for now CHANGEME -->
-         <link type="text/css" href="css/jplayer.pink.flag.min.css" rel="stylesheet" />
->>>>>>> 45a6d8c2b0fc0b6bf1eb4547347899d835d528f2
-
-
-        <script type="text/javascript" src="/js/jquery.jplayer.min.js"></script>
-        <script type="text/javascript">
-          $(document).ready(function(){
-            $("#jquery_jplayer_1").jPlayer({
-              ready: function () {
-                $(this).jPlayer("setMedia", {
-                  title: "A Fucking Bunny",
-                  mp4: "https://raw.githubusercontent.com/mediaelement/mediaelement-files/master/big_buck_bunny.mp4",
-                 });
-              },
-              cssSelectorAncestor: "#jp_container_1",
-              swfPath: "/js",
-              supplied: "m4v, ogv",
-              useStateClassSkin: true,
-              autoBlur: false,
-              smoothPlayBar: true,
-              keyEnabled: true,
-              remainingDuration: true,
-              toggleDuration: true
-            });
-          });
-        </script>
 
     </head>
     <body>
@@ -99,5 +67,27 @@
           </div>
       </footer>
       <script type="text/javascript" src="./js/all.js"></script>
+      <script type="text/javascript" src="/js/jquery.jplayer.min.js"></script>
+      <script type="text/javascript">
+        $(document).ready(function(){
+          $("#jquery_jplayer_1").jPlayer({
+            ready: function () {
+              $(this).jPlayer("setMedia", {
+                title: "A Fucking Bunny",
+                mp4: "https://raw.githubusercontent.com/mediaelement/mediaelement-files/master/big_buck_bunny.mp4",
+               });
+            },
+            cssSelectorAncestor: "#jp_container_1",
+            swfPath: "/js",
+            supplied: "m4v, ogv",
+            useStateClassSkin: true,
+            autoBlur: false,
+            smoothPlayBar: true,
+            keyEnabled: true,
+            remainingDuration: true,
+            toggleDuration: true
+          });
+        });
+      </script>
     </body>
   </html>
