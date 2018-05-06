@@ -65,7 +65,8 @@ textarea { overflow: auto; vertical-align: top; resize: vertical; }
 .nav-upB {opacity: 0.7;}
 /* TEXT BASICS */
 h6 {font-size: 16px;}
-/* ICONS BASICS */
+/* ICONS TOOLS */
 .icon_circle {-webkit-border-radius: 50% !important;-webkit-border-radius: 9999999px; -moz-border-radius: 50% !important; -moz-border-radius: 9999999px; border-radius: 50% !important; border-radius: 9999999px; border-top-right-radius: 50% !important;border-top-left-radius: 50% !important;border-bottom-right-radius: 50% !important;border-bottom-left-radius: 50% !important;border-top-right-radius: 9999999px;border-top-left-radius: 9999999px;border-bottom-right-radius: 9999999px;border-bottom-left-radius: 9999999px;}
+/* ICONS BASICS */
 .BRAND {width: 45px; height: 45px;display: inline-block; background-image: url('./imgP/BRAND-COLOR-SPRITES.png'); background-repeat: no-repeat;}
 .SEARCHICON {width: 20px; height: 20px; background-repeat: no-repeat; background-position: 0px 0px; display: inline-block;}

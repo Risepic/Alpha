@@ -31,7 +31,8 @@ footer .FOOTBACK {
 }
 .qbox-chat {
   width: 90%;
-  padding: 0 5%;
+  height: 85%;
+  padding: 5% 5% 10% 5%;
   margin-top: 60px;
   margin-bottom: 60px;
   display: inline-block;
@@ -43,6 +44,9 @@ footer .FOOTBACK {
   display: inline-block;
   width: 100%;
   text-align: left;
+}
+.question {
+  padding: 10px 0; 
 }
 .question .q-info {
   display: inline-block;
