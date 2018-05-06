@@ -63,6 +63,8 @@ textarea { overflow: auto; vertical-align: top; resize: vertical; }
 #footerhide {transition: bottom 0.3s ease-in-out;}
 .nav-up {bottom: -40px;}
 .nav-upB {opacity: 0.7;}
+/* TEXT BASICS */
+h6 {font-size: 16px;}
 /* ICONS BASICS */
 .icon_circle {-webkit-border-radius: 50% !important;-webkit-border-radius: 9999999px; -moz-border-radius: 50% !important; -moz-border-radius: 9999999px; border-radius: 50% !important; border-radius: 9999999px; border-top-right-radius: 50% !important;border-top-left-radius: 50% !important;border-bottom-right-radius: 50% !important;border-bottom-left-radius: 50% !important;border-top-right-radius: 9999999px;border-top-left-radius: 9999999px;border-bottom-right-radius: 9999999px;border-bottom-left-radius: 9999999px;}
 .BRAND {width: 45px; height: 45px;display: inline-block; background-image: url('./imgP/BRAND-COLOR-SPRITES.png'); background-repeat: no-repeat;}
