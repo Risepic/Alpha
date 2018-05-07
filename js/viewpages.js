@@ -1,3 +1,3 @@
 $(document).ready(function () {
-        window.scrollTo(0,600);
+        window.scrollTo(0,700);
     });
