@@ -1,29 +1,28 @@
 <!DOCTYPE html>
 <html>
-<head>
-<script src="./dist/jsbn.js"></script>
-<script src="./dist/jsbn2.js"></script>
-<script src="./dist/sjcl.js"></script>
-<script src="./dist/aws-cognito-sdk.min.js"></script>
-<script src="./dist/amazon-cognito-identity.min.js"></script>
-<script src="https://sdk.amazonaws.com/js/aws-sdk-2.5.0.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-
-<link rel="stylesheet" type="text/css" href="./css/login.css">
-<meta property="og:image" content="./img/SMM.png">
-<meta http-equiv="Content-Language" content="en">
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, target-densityDpi=device-dpi, user-scalable=0, user-scalable=no,">
-<link rel="stylesheet" href="./css/base.css">
-<link rel="stylesheet" href="./css/components.css">
-<link rel="stylesheet" href="./css/objects.css">
-<link rel="stylesheet" href="./css/black.css">
-<link rel="image_src" href="./img/logo.png" />
-
-</head>
-<body>
-
-<div class="panel" id="register">
+  <head>
+      <title>Learn, the best game ever &#10084; on Risepic</title>
+      <meta property="og:image" content="./img/SMM.png">
+      <meta http-equiv="Content-Language" content="en">
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="./css/base.css">
+      <link rel="stylesheet" href="./css/components.css">
+      <link rel="stylesheet" href="./css/objects.css">
+      <link rel="stylesheet" href="./css/white.css">
+      <link rel="image_src" href="./img/logo.png" />
+      <script src="./dist/jsbn.js"></script>
+      <script src="./dist/jsbn2.js"></script>
+      <script src="./dist/sjcl.js"></script>
+      <script src="./dist/aws-cognito-sdk.min.js"></script>
+      <script src="./dist/amazon-cognito-identity.min.js"></script>
+      <script src="https://sdk.amazonaws.com/js/aws-sdk-2.5.0.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="./css/login.css">
+    </head>
+<body id="index">
+  <header>
+  </header>
+<div class="login" id="register">
 
     <h1>Register ToDaMoon MOFO</h1>
 
@@ -41,10 +40,10 @@
     </form>
 
     <button id="signUpBtn">Sign Up</button>
-    <p class="linkpanel loginBtn">Login</p>
+    <p class="login-button loginBtn">Login</p>
 </div>
 
-<div class="panel" id="mfa_confirmation">
+<div class="login" id="mfa_confirmation">
 
     <p>Dear <a id="user_name"></a> the code yo, you nahmean?</p>
     <input id="confirmation_input"></input>
@@ -52,7 +51,7 @@
     <button id="confirmBtn">Confirm</button>
 </div>
 
-<div class="panel" id="login">
+<div class="login" id="login">
     <h1>Login</h1>
 
     <label>Username:<br>
@@ -64,10 +63,10 @@
     </label>
 
     <button id="loginBtn">Log in</button>
-    <p class="linkpanel registerBtn">Register</p>
+    <p class="login-button registerBtn">Register</p>
 </div>
 
-<div class="panel" id="logged_in">
+<div class="login" id="logged_in">
     <p> <a id="user_name"></a> Yeah, alright, I know you.</p>
 
     <ul id="user_attributes">
@@ -76,9 +75,22 @@
     <ul id="user_devices">
     </ul>
 
-    <p class="linkpanel" id="signOutBtn">Sign Out</p>
+    <p class="login-button" id="signOutBtn">Sign Out</p>
 </div>
-
+  <footer class="FOOTER" id="footerhide">
+    <div class="FOOTBACK">
+      <div>
+          <ul>
+            <a href="" style="background-color: #0eb50f;">Share</a>
+            <a href="" style="background-color: #fe952e;">Feedback</a>
+            <a href="" style="background-color: #f85479;">Manifesto</a>
+            <a href="" style="background-color: #C554E2;">Privacy</a>
+            <a href="" style="background-color: #1C8ACC;">Exit</a>
+          </ul>
+        </div>
+      </div>
+  </footer>
+  <script type="text/javascript" src="./js/all.js"></script>
 
 </body>
 <script src="./login-config.js"></script>
