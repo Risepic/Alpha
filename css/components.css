@@ -60,6 +60,10 @@ footer:hover {
 .vbox-m {
   width: 70%;
 }
+.vbox-l-view {
+  width: 100%;
+  margin-top: 50px;
+}
 .vbox-audio {
   width: 70%;
   height: 600px;
@@ -103,4 +107,8 @@ footer:hover {
   padding: 0;
   margin: 0;
   /* @/* TODO:  */ height: 1000px;
+}
+.profileboxinfo {
+  display: inline-block;
+  width: 100%;
 }
