@@ -19,12 +19,31 @@
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
       <link rel="stylesheet" type="text/css" href="./css/login.css">
     </head>
-<body id="index">
+<body class="login" id="login-page">
   <header>
   </header>
-<div class="login" id="register">
 
-    <h1>Register ToDaMoon MOFO</h1>
+
+<div class="login-box" id="login">
+    <h1>Login</h1>
+
+    <label>Username:<br>
+        <input id="username_input">
+    </label>
+
+    <label>Password:<br>
+        <input id="password_input" type="password">
+    </label>
+
+    <div class="button-box"><button id="loginBtn">Log in</button></div>
+
+    <p class="login-registration registerBtn">Register</p>
+</div>
+
+
+<div class="login-box" id="register">
+
+    <h1>Register to Risepic!</h1>
 
     <label>Username:<br>
         <input id="username_input">
@@ -39,35 +58,23 @@
 
     </form>
 
-    <button id="signUpBtn">Sign Up</button>
-    <p class="login-button loginBtn">Login</p>
+    <div class="button-box"><button id="signUpBtn">Sign Up</button></div>
+    <p class="login-registration loginBtn">Login</p>
 </div>
 
-<div class="login" id="mfa_confirmation">
 
-    <p>Dear <a id="user_name"></a> the code yo, you nahmean?</p>
+
+<div class="login-box" id="mfa_confirmation">
+
+    <p>Dear <a id="user_name"></a> you nahmean? I need the code.</p>
     <input id="confirmation_input"></input>
     </br>
     <button id="confirmBtn">Confirm</button>
 </div>
 
-<div class="login" id="login">
-    <h1>Login</h1>
 
-    <label>Username:<br>
-        <input id="username_input">
-    </label>
-
-    <label>Password:<br>
-        <input id="password_input" type="password">
-    </label>
-
-    <button id="loginBtn">Log in</button>
-    <p class="login-button registerBtn">Register</p>
-</div>
-
-<div class="login" id="logged_in">
-    <p> <a id="user_name"></a> Yeah, alright, I know you.</p>
+<div class="login-box" id="logged_in">
+    <p> <a id="user_name"></a> Hey, welcome back!</p>
 
     <ul id="user_attributes">
     </ul>
@@ -75,7 +82,8 @@
     <ul id="user_devices">
     </ul>
 
-    <p class="login-button" id="signOutBtn">Sign Out</p>
+    <p class="login-registration" id="signOutBtn">Sign Out</p>
+
 </div>
   <footer class="FOOTER" id="footerhide">
     <div class="FOOTBACK">
