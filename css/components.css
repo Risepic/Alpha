@@ -77,9 +77,24 @@ footer:hover {
   width: 100%;
 }
 .i-box-s {
-  width: 200px;
-  height: 200px;
+  width: 350px;
+  height: 180px;
   /* @/* TODO:  */ background-color: #ffffff;
+  display: inline-block;
+}
+.l-box-s {
+  width: 230px;
+  height: 280px;
+  /* @/* TODO:  */ background-color: #ffffff;
+  display: inline-block;
+}
+.r-box-s {
+  padding: 10px;
+  margin: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  /* @/* TODO:  */ background-color: #ffffff;
+  /* @/* TODO:  */ color: #000000;
   display: inline-block;
 }
 .slidebox {
@@ -116,7 +131,6 @@ footer:hover {
   padding: 0;
   margin: 0 auto;
   display: block;
-  /* @/* TODO:  */ height: 1000px;
 }
 .timeline-XL {
   z-index: 10;
@@ -159,6 +173,17 @@ footer:hover {
   display: inline-block;
  }
 .p-experience-highlight {
+  display: block;
+  padding: 50px 0;
+  text-align: left;
+  width: 100%;
+}
+.p-experience-lists {
+  display: block;
+  padding: 50px 0;
+  text-align: left;
+  width: 100%;
+}.p-experience-roadmap {
   display: block;
   padding: 50px 0;
   text-align: left;

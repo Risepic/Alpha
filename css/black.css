@@ -29,17 +29,23 @@ body > header {
   background-color: #000000;
 }
 .profileboxinfo {
-  background-color: #bfbfbf;
+  background-color: #333333;
 }
 .profileboxinfo-box h1 {
-  color: #000000;
+  color: #ffffff;
 }
 .profileboxinfo-box .p-bio {
   color: #ebeced;
 }
 .profileboxinfo-box .p-username-m {
-  color: #000000;
+  color: #ffffff;
 }
-.p-experience-all h2 {
+.p-experience-all .p-experience-highlight h2 {
   background-color: #FFFF00;
+}
+.p-experience-all .p-experience-lists h2 {
+  background-color: #00ff00;
+}
+.p-experience-all .p-experience-roadmap h2 {
+  background-color: #fe952e;
 }

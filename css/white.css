@@ -36,6 +36,12 @@ body > header {
 .profileboxinfo-box .p-username-m {
   color: #ebeced;
 }
-.p-experience-all h2 {
+.p-experience-all .p-experience-highlight h2 {
   background-color: #FFFF00;
+}
+.p-experience-all .p-experience-lists h2 {
+  background-color: #00ff00;
+}
+.p-experience-all .p-experience-roadmap h2 {
+  background-color: #fe952e;
 }
