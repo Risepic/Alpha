@@ -24,10 +24,10 @@ input {
 
 button { 
     display: inline-block;
-    background-color: #4CAF50;
+    background-color: yellow;
     border: none;
     font-size: 18px;
-    color: #000FFF;
+    color: black;
     padding: 10px 10px;
     text-align: center;
     margin-top: 5px;
@@ -55,7 +55,7 @@ label {
 .login-box{
     display: inline-block;
     max-width: 80%;
-    background-color: #000; /* #006FFF; */
+    background-color: #333; /* #006FFF; */
     border-radius: 5px;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -67,7 +67,7 @@ label {
     cursor: pointer;
     margin: 10px auto;
     font-size: 16px;
-    color: white;
+    color: yellow;
 }
 
 .button-box{
