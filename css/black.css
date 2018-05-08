@@ -22,3 +22,24 @@ body > header {
 .timeline-XL {
   background-color: #000000;
 }
+.profileboxinfo-box .u-bio {
+  color: #ebeced;
+}
+.p-experience-all {
+  background-color: #000000;
+}
+.profileboxinfo {
+  background-color: #bfbfbf;
+}
+.profileboxinfo-box h1 {
+  color: #000000;
+}
+.profileboxinfo-box .p-bio {
+  color: #ebeced;
+}
+.profileboxinfo-box .p-username-m {
+  color: #000000;
+}
+.p-experience-all h2 {
+  background-color: #FFFF00;
+}

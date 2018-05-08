@@ -22,5 +22,20 @@ body > header {
   background-color: #ffffff;
 }
 .profileboxinfo-box .u-bio {
-  color: #3c3c3c;
+  color: #ebeced;
+}
+.profileboxinfo {
+  background-color: #333333;
+}
+.profileboxinfo-box h1 {
+  color: #ffffff;
+}
+.profileboxinfo-box .p-bio {
+  color: #bfbfbf;
+}
+.profileboxinfo-box .p-username-m {
+  color: #ebeced;
+}
+.p-experience-all h2 {
+  background-color: #FFFF00;
 }
