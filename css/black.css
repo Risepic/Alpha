@@ -1,7 +1,7 @@
 html, body {
   background-color: rgb(33, 33, 33);
 }
-header {
+body > header {
   background-color: #000000;
 }
 .qbox {

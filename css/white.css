@@ -1,7 +1,7 @@
 html, body {
   background-color: #ebeced;
 }
-header {
+body > header {
   background-color: #ffffff;
 }
 .qbox {background-color: #ffffff;}
@@ -20,4 +20,7 @@ header {
 }
 .timeline-XL {
   background-color: #ffffff;
+}
+.profileboxinfo-box .u-bio {
+  color: #3c3c3c;
 }

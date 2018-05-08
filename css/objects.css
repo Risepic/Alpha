@@ -46,7 +46,7 @@ footer .FOOTBACK {
   text-align: left;
 }
 .question {
-  padding: 10px 0; 
+  padding: 10px 0;
 }
 .question .q-info {
   display: inline-block;
@@ -68,4 +68,64 @@ footer .FOOTBACK {
 }
 .question h6 {
   font-weight: bold;
+}
+.profileboxinfo-box header{
+  padding-right: 10px;
+  display: inline-block;
+}
+.profileboxinfo-box aside {
+  display: inline-block;
+  /* @/* TODO:  */ height: 230px;
+  /* @/* TODO:  */ background-color: #ffffff;
+}
+.profileboxinfo-box figure {
+  display: inline-block;
+  width: 230px;
+  height: 230px;
+  float: left;
+}
+
+.profileboxinfo-box h1 {
+  display: inline;
+  vertical-align: top;
+}
+
+.profileboxinfo-box .u-bio {
+  display: inline;
+  font-size: 14px;
+  vertical-align: bottom;
+}
+
+@media screen and (min-width: 0px) {
+  .profileboxinfo-box {
+    width: 800px;
+  }
+  .profileboxinfo-box header{
+    width: 500px;
+  }
+  .profileboxinfo-box aside {
+    width: 300px;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width:1429px) {
+  .profileboxinfo-box {
+    width: 990px;
+  }
+  .profileboxinfo-box header{
+    width: 640px;
+  }
+  .profileboxinfo-box aside {
+    width: 540px;
+  }
+}
+@media screen and (min-width: 1430px) {
+  .profileboxinfo-box {
+    width: 1200px;
+  }
+  .profileboxinfo-box header{
+    width: 640px;
+  }
+  .profileboxinfo-box aside {
+    width: 540px;
+  }
 }
