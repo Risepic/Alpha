@@ -49,3 +49,20 @@ body > header {
 .p-experience-all .p-experience-roadmap h2 {
   background-color: #fe952e;
 }
+.p-experience-all .p-experience-productions h2 {
+  background-color: #1C8ACC;
+}
+.p-experience-all .p-experience-tasks h2 {
+  background-color: #C554E2;
+}
+.p-experience-all .p-experience-positions h2 {
+  background-color: #f85479;
+}
+.p-experience-all .p-experience-tasks h3 {
+  background-color: #ffffff;
+  color: #000000;
+}
+.p-experience-all .p-experience-positions h3 {
+  background-color: #ffffff;
+  color: #000000;
+}

@@ -122,6 +122,10 @@ footer .FOOTBACK {
   padding: 20px 60px;
   display: inline-block;
 }
+.p-experience-all h3 {
+  padding: 5px 10px;
+  display: inline-block;
+}
 
 
 @media screen and (min-width: 0px) {

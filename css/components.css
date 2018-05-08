@@ -7,7 +7,7 @@ body > header {
   left: 0px;
   right: 0px;
   text-align: center;
-  z-index: 9;
+  z-index: 99;
   opacity: 1;
 }
 body > header:hover {
@@ -22,7 +22,7 @@ footer {
   right: 0px;
   display: inline-block;
   overflow: hidden;
-  z-index: 100;
+  z-index: 99;
 }
 footer:hover {
   height: 100px;
@@ -32,6 +32,10 @@ footer:hover {
   height: 30px;
 }
 .u-picbox-xl {
+  width: 200px;
+  height: 200px;
+}
+.c-picbox-xl {
   width: 200px;
   height: 200px;
 }
@@ -95,6 +99,15 @@ footer:hover {
   font-weight: bold;
   /* @/* TODO:  */ background-color: #ffffff;
   /* @/* TODO:  */ color: #000000;
+  display: inline-block;
+}
+.r-box-s-opened {
+  padding: 50px;
+  margin: 100px;
+  font-size: 25px;
+  font-weight: bold;
+  /* @/* TODO:  */ background-color: #000000;
+  /* @/* TODO:  */ color: #ffffff;
   display: inline-block;
 }
 .slidebox {
@@ -183,7 +196,26 @@ footer:hover {
   padding: 50px 0;
   text-align: left;
   width: 100%;
-}.p-experience-roadmap {
+}
+.p-experience-roadmap {
+  display: block;
+  padding: 50px 0;
+  text-align: left;
+  width: 100%;
+}
+.p-experience-productions {
+  display: block;
+  padding: 50px 0;
+  text-align: left;
+  width: 100%;
+}
+.p-experience-tasks {
+  display: block;
+  padding: 50px 0;
+  text-align: left;
+  width: 100%;
+}
+.p-experience-positions {
   display: block;
   padding: 50px 0;
   text-align: left;
