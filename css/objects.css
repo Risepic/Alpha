@@ -132,6 +132,9 @@ footer .FOOTBACK {
   .profileboxinfo-box {
     width: 800px;
   }
+  .contentprewboxinfo-box {
+    width: 800px;
+  }
   .profileboxinfo-box header{
     width: 500px;
   }
@@ -146,6 +149,9 @@ footer .FOOTBACK {
   .profileboxinfo-box {
     width: 990px;
   }
+  .contentprewboxinfo-box {
+    width: 990px;
+  }
   .profileboxinfo-box header{
     width: 640px;
   }
@@ -158,6 +164,9 @@ footer .FOOTBACK {
 }
 @media screen and (min-width: 1430px) {
   .profileboxinfo-box {
+    width: 1200px;
+  }
+  .contentprewboxinfo-box {
     width: 1200px;
   }
   .profileboxinfo-box header{
