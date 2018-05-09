@@ -126,8 +126,19 @@ footer .FOOTBACK {
   padding: 5px 10px;
   display: inline-block;
 }
-
-
+.contentprewboxinfo-box figure {
+  display: inline-block;
+  position: relative;
+}
+.contentprewboxinfo-box figure .SpecialTitleFancy {
+  position: absolute;
+  top: 60%;
+  left: 10px;
+  z-index: 10;
+  padding: 10px;
+  /* @/* TODO:  */ background-color: #00000066;
+  /* @/* TODO:  */ color: #ffffff;
+}
 @media screen and (min-width: 0px) {
   .profileboxinfo-box {
     width: 800px;
@@ -144,9 +155,19 @@ footer .FOOTBACK {
   .timeline-m {
     width: 800px;
   }
+  .contentprewboxinfo-box figure {
+    width: 400px;
+  }
+  .contentprewboxinfo-box figure .SpecialTitleFancy {
+    font-size: 25px;
+  }
   .i-picbox-xl {
     width: 400px;
     height: 250px;
+  }
+  .contentprewboxdesc-box {
+    width: 340px;
+    padding-left: 50px;
   }
 }
 @media screen and (min-width: 1200px) and (max-width:1429px) {
@@ -165,9 +186,19 @@ footer .FOOTBACK {
   .profileboxinfo-box aside {
     width: 540px;
   }
+  .contentprewboxinfo-box figure {
+    width: 500px;
+  }
+  .contentprewboxinfo-box figure .SpecialTitleFancy {
+    font-size: 35px;
+  }
   .i-picbox-xl {
     width: 500px;
     height: 300px;
+  }
+  .contentprewboxdesc-box {
+    width: 440px;
+    padding-left: 40px;
   }
 }
 @media screen and (min-width: 1430px) {
@@ -186,8 +217,18 @@ footer .FOOTBACK {
   .profileboxinfo-box aside {
     width: 540px;
   }
+  .contentprewboxinfo-box figure {
+    width: 700px;
+  }
+  .contentprewboxinfo-box figure .SpecialTitleFancy {
+    font-size: 45px;
+  }
   .i-picbox-xl {
     width: 700px;
     height: 400px;
+  }
+  .contentprewboxdesc-box {
+    width: 450px;
+    padding-left: 40px;
   }
 }

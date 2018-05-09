@@ -169,7 +169,7 @@ footer:hover {
 }
 .contentprewboxinfo-box {
   display: block;
-  padding: 80px 0 80px 0;
+  padding: 0px 0 80px 0;
   margin: 0 auto;
   text-align: left;
 }
@@ -229,4 +229,11 @@ footer:hover {
   padding: 50px 0;
   text-align: left;
   width: 100%;
+}
+.contentprewboxdesc-box {
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 30px;
+  /* @/* TODO:  */ height: 1000px;
+
 }
