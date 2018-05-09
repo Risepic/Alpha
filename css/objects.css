@@ -144,6 +144,10 @@ footer .FOOTBACK {
   .timeline-m {
     width: 800px;
   }
+  .i-picbox-xl {
+    width: 400px;
+    height: 250px;
+  }
 }
 @media screen and (min-width: 1200px) and (max-width:1429px) {
   .profileboxinfo-box {
@@ -161,6 +165,10 @@ footer .FOOTBACK {
   .profileboxinfo-box aside {
     width: 540px;
   }
+  .i-picbox-xl {
+    width: 500px;
+    height: 300px;
+  }
 }
 @media screen and (min-width: 1430px) {
   .profileboxinfo-box {
@@ -177,5 +185,9 @@ footer .FOOTBACK {
   }
   .profileboxinfo-box aside {
     width: 540px;
+  }
+  .i-picbox-xl {
+    width: 700px;
+    height: 400px;
   }
 }
