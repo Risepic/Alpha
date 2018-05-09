@@ -193,12 +193,14 @@
 
             // Get this from node
             var questions = [3, 15, 30, 60, 100, 150, 170, 230, 300, 310, 320];
+            // var audio_question_slides= [ ... ]
             
             player.on('timeupdate', event => {
               console.log(player.currentTime);
               for(i=0;i<questions.length;i++){
                 var e = document.getElementById(i);
                 if(player.currentTime > questions[i]){
+                  // if(isAudioPlyr) player.poster = audio_question_slides[i];
                   $(e).hide();
                 }else{
                   $(e).show();
