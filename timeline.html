@@ -15,8 +15,15 @@
 <body id="index">
   <header></header>
 
-  <a href="javascript:;" class="prevvid"></a>
-  <script type="text/javascript" src="./js/all.js"></script>
-
+  <a href="javascript:;" class="prevvid" style="width: 300px;height: 300px; display: inline-block;" id="userdemoLink">Click MEEEEEEEEEEEEEEEEEEEEEEEEEEE</a>
+  <div id="userdemoview">
+  
+</div>
+<script type="text/javascript" src="./js/all.js"></script>
+  <script>
+      $("#userdemoLink").on("click", function(){
+        $("#userdemoview").load("https://raw.githubusercontent.com/Risepic/Alpha/master/timeline.html");
+      });
+    </script>
   </body>
   </html>
