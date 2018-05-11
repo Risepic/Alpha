@@ -60,6 +60,25 @@ footer:hover {
   min-height: 100%;
   max-height: 100%;
 }
+.qbox-prep-before {
+  width: 100%;
+  display: inline-block;
+  /* @/* TODO:  */height: 100px;
+  background-color: yellow;
+}
+.qbox-prep-after {
+  width: 100%;
+  display: inline-block;
+  background-color: red;
+  opacity: 0.8;
+  position: fixed;
+  top: 100px;
+  height: 100%;
+  overflow: scroll;
+}
+.qbox-prep-after:hover {
+  opacity: 1;
+}
 .vbox {
   display: inline-block;
   overflow: hidden;
@@ -172,6 +191,7 @@ footer:hover {
   padding: 0px 0 80px 0;
   margin: 0 auto;
   text-align: left;
+  padding-bottom: 80px;
 }
 .p-username-m {
   font-size: 18px;
@@ -234,6 +254,23 @@ footer:hover {
   display: inline-block;
   vertical-align: top;
   padding-top: 30px;
+  /* @/* TODO:  */ height: 500px;
+}
+.contentprewboxwhat-box {
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 30px;
+  /* @/* TODO:  */ height: 500px;
+  /* @/* TODO:  */ background-color: #000000;
+}
+.contentprewboxtext-box {
+  display: inline-block;
+  vertical-align: top;
+}
+.timelineother {
+  z-index: 15;
+  width: 100%;
+  /* @/* TODO:  */ background-color: #ffffff;
   /* @/* TODO:  */ height: 1000px;
 
 }

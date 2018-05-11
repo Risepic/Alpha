@@ -139,12 +139,22 @@ footer .FOOTBACK {
   /* @/* TODO:  */ background-color: #00000066;
   /* @/* TODO:  */ color: #ffffff;
 }
+.contentprewboxdesc-box header {
+  display: inline-block;
+  padding-bottom: 50px;
+  width: 100%;
+  /* @/* TODO:  */ height: 500px;
+  /* @/* TODO:  */ background-color: #000000;
+}
 @media screen and (min-width: 0px) {
   .profileboxinfo-box {
     width: 800px;
   }
   .contentprewboxinfo-box {
     width: 800px;
+  }
+  .contentprewboxtext-box {
+    width: 400px;
   }
   .profileboxinfo-box header{
     width: 500px;
@@ -169,6 +179,9 @@ footer .FOOTBACK {
     width: 340px;
     padding-left: 50px;
   }
+  .contentprewboxdesc-box {
+    width: 400px;
+  }
 }
 @media screen and (min-width: 1200px) and (max-width:1429px) {
   .profileboxinfo-box {
@@ -176,6 +189,9 @@ footer .FOOTBACK {
   }
   .contentprewboxinfo-box {
     width: 990px;
+  }
+  .contentprewboxtext-box {
+    width: 500px;
   }
   .profileboxinfo-box header{
     width: 640px;
@@ -198,7 +214,9 @@ footer .FOOTBACK {
   }
   .contentprewboxdesc-box {
     width: 440px;
-    padding-left: 40px;
+  }
+  .contentprewboxwhat-box {
+    width: 500px;
   }
 }
 @media screen and (min-width: 1430px) {
@@ -207,6 +225,9 @@ footer .FOOTBACK {
   }
   .contentprewboxinfo-box {
     width: 1200px;
+  }
+  .contentprewboxtext-box {
+    width: 700px;
   }
   .profileboxinfo-box header{
     width: 640px;
@@ -230,5 +251,8 @@ footer .FOOTBACK {
   .contentprewboxdesc-box {
     width: 450px;
     padding-left: 40px;
+  }
+  .contentprewboxwhat-box {
+    width: 700px;
   }
 }
