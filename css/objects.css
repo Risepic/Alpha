@@ -139,12 +139,80 @@ footer .FOOTBACK {
   /* @/* TODO:  */ background-color: #00000066;
   /* @/* TODO:  */ color: #ffffff;
 }
-.contentprewboxdesc-box header {
+.contentprewboxdesc-box aside {
   display: inline-block;
   padding-bottom: 50px;
   width: 100%;
   /* @/* TODO:  */ height: 500px;
-  /* @/* TODO:  */ background-color: #000000;
+}
+.contentprewboxwhat-box figure {
+  width: 35%;
+  height: 120px;
+  vertical-align: top;
+  padding-top: 20px;
+}
+.contentprewboxwhat-box p {
+  display: inline-block;
+  width: 58%;
+  padding-top: 20px;
+  padding-right: 5%;
+  font-size: 13px;
+  line-height: 1.2;
+}
+.contentprewboxwhat-box span {
+  display: inline;
+  font-size: 13px;
+}
+.contentprewboxwhat-box h3 {
+  display: inline;
+}
+.contentprewboxwhat-box figure img {
+  width: 100%;
+  height: 100%;
+}
+.contentprewboxinfo-box-kindsof {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px;
+}
+.contentprewboxinfo-box-kindsof span {
+  font-size: 23px;
+  font-weight: lighter;
+}
+.contentprewboxinfo-box-kindsofdesc {
+  font-size: 16px;
+  padding: 3px;
+  line-height: 1.2;
+}
+.contentprewboxinfo-box-kindsofACTIONS {
+  text-align: center;
+}
+.PREVBTNBUY {
+  display: inline-block;
+  padding: 3% 15%;
+  background-color: #ffd800;
+  color: #000000;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  margin: 10px;
+}
+.PREVBTNADD {
+  display: inline-block;
+  padding: 3% 15%;
+  background-color: #0eb50f;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  margin: 10px;
+}
+.scrollinfoqaview {
+  width: 100%;
+  height: 10%;
+  
 }
 @media screen and (min-width: 0px) {
   .profileboxinfo-box {
@@ -165,7 +233,7 @@ footer .FOOTBACK {
   .timeline-m {
     width: 800px;
   }
-  .contentprewboxinfo-box figure {
+  .contentprewboxinfo-box > figure {
     width: 400px;
   }
   .contentprewboxinfo-box figure .SpecialTitleFancy {
@@ -202,7 +270,7 @@ footer .FOOTBACK {
   .profileboxinfo-box aside {
     width: 540px;
   }
-  .contentprewboxinfo-box figure {
+  .contentprewboxinfo-box > figure {
     width: 500px;
   }
   .contentprewboxinfo-box figure .SpecialTitleFancy {
@@ -238,7 +306,7 @@ footer .FOOTBACK {
   .profileboxinfo-box aside {
     width: 540px;
   }
-  .contentprewboxinfo-box figure {
+  .contentprewboxinfo-box > figure {
     width: 700px;
   }
   .contentprewboxinfo-box figure .SpecialTitleFancy {

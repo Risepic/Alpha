@@ -4,12 +4,12 @@ $(document).ready(function () {
 
 
 $(document).scroll(function(){
- if($(window).scrollTop() > 150){
-   $('.qbox-prep').addClass('qbox-prep-before');
-   $('.qbox-prep').removeClass('qbox-prep-after');
+ if($(window).scrollTop() < 1600){
+   $('#qbox-prep').addClass('qbox-prep-before');
+   $('#qbox-prep').removeClass('qbox-prep-after');
  }
- else if($(window).scrollTop() < 150){
-   $('.qbox-prep').removeClass('qbox-prep-after');
-   $('.qbox-prep').addClass('qbox-prep-before');
+ else if($(window).scrollTop() > 1600){
+   $('#qbox-prep').addClass('qbox-prep-after');
+   $('#qbox-prep').removeClass('qbox-prep-before');
  }
 });
