@@ -141,9 +141,7 @@ footer .FOOTBACK {
 }
 .contentprewboxdesc-box aside {
   display: inline-block;
-  padding-bottom: 50px;
   width: 100%;
-  /* @/* TODO:  */ height: 500px;
 }
 .contentprewboxwhat-box figure {
   width: 35%;
@@ -176,7 +174,7 @@ footer .FOOTBACK {
   padding: 5px;
 }
 .contentprewboxinfo-box-kindsof span {
-  font-size: 23px;
+  font-size: 18px;
   font-weight: lighter;
 }
 .contentprewboxinfo-box-kindsofdesc {
@@ -198,6 +196,12 @@ footer .FOOTBACK {
   text-align: center;
   margin: 10px;
 }
+.scrollinfoqaview .PREVBTNBUY {
+  padding: 15px 0;
+  width: 20%;
+  margin: 0;
+  display: inline-block;
+}
 .PREVBTNADD {
   display: inline-block;
   padding: 3% 15%;
@@ -209,10 +213,36 @@ footer .FOOTBACK {
   text-align: center;
   margin: 10px;
 }
-.scrollinfoqaview {
+.scrollinfoqaview .PREVBTNADD {
+  padding: 15px 0;
+  width: 20%;
+  margin: 0;
+  display: inline-block;
+}
+.qbox-prep-after .scrollinfoqaview {
+  padding-top: 50px;
+}
+.scrollinfoqaview{
   width: 100%;
-  height: 10%;
-  
+  display: inline-block;
+}
+.qbox-prep-before .scrollinfoqaview {
+  padding-bottom: 30px;
+}
+.qbox-prep-before .PREVBTNADD, .qbox-prep-before .PREVBTNBUY {
+  width: 30%;
+  margin: 10px;
+}
+.PREVBTNADDTITLE {
+  width: 60%;
+  font-size: 15px;
+  display: inline-block;
+  padding: 15px 0;
+  text-align: center;
+  font-weight: bold;
+}
+.qbox-prep-before .PREVBTNADDTITLE {
+  display: none;
 }
 @media screen and (min-width: 0px) {
   .profileboxinfo-box {

@@ -1,6 +1,13 @@
 html, body {
   background-color: rgb(33, 33, 33);
 }
+.scrollinfoqaview {
+  background-color: rgb(33, 33, 33);;
+}
+.PREVBTNADDTITLE {
+  background-color: #ffffff;
+  color: #000000;
+}
 body > header {
   background-color: #000000;
 }

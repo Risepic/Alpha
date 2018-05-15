@@ -61,20 +61,32 @@ footer:hover {
   max-height: 100%;
 }
 .qbox-prep-before {
-  width: 100%;
+  width: 40%;
   display: inline-block;
   /* @/* TODO:  */height: 100px;
-  background-color: yellow;
+  background-color: #ffffff;
+  top: 420px;
+  right: 0px;
+  position: absolute;
 }
-.qbox-prep-after {
+.qbox-prep-out {
   width: 100%;
   display: inline-block;
-  background-color: red;
+  background-color: transparent;
+  padding-top: 40px;
+  height: 1px;
+}
+.qbox-prep-after {
+  width: 40%;
+  display: inline-block;
+  background-color: #ffffff;
   opacity: 0.8;
   position: fixed;
   top: 0;
+  right: 0;
   height: 100%;
   overflow: scroll;
+  z-index: 11;
 }
 .qbox-prep-after:hover {
   opacity: 1;
@@ -179,6 +191,7 @@ footer:hover {
 .contentprewboxinfo {
   display: inline-block;
   width: 100%;
+  position: relative;
 }
 .profileboxinfo-box {
   display: block;
@@ -267,6 +280,7 @@ footer:hover {
 }
 .timelineother {
   z-index: 15;
+  position: relative;
   width: 100%;
   /* @/* TODO:  */ background-color: #ffffff;
   /* @/* TODO:  */ height: 1000px;
