@@ -334,33 +334,43 @@ footer:hover {
   width: 35%;
   padding: 0px 4% 40px 4%;
   display: inline-block;
+  text-align: left;
 }
 .pageopenintimelinefancy .purposesprewpage {
   width: 35%;
   padding: 0px 4% 40px 4%;
   display: inline-block;
+  text-align: left;
 }
 .pageopenintimelinefancy .requirementsprewpage li {
   color: #484848;
   list-style: circle;
   font-size: 17px;
+  padding: 3px;
 }
 .pageopenintimelinefancy .requirementsprewpage p {
   color: #000000;
   font-size: 21px;
   padding-top: 0px;
+  padding-bottom: 10px;
   font-weight: bold;
 }
 .pageopenintimelinefancy .purposesprewpage li {
   color: #484848;
   list-style: circle;
   font-size: 17px;
+  padding: 3px;
 }
 .pageopenintimelinefancy .purposesprewpage p {
   color: #000000;
   font-size: 21px;
   padding-top: 0px;
+  padding-bottom: 10px;
   font-weight: bold;
+}
+.pageopenintimelinefancy .Whaitbutwhy {
+  width: 100%;
+  text-align: center;
 }
 .contentprewboxinfo-box-kindsofTITLE {
   font-size: 23px;
