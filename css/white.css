@@ -11,6 +11,9 @@ html, body {
 .contentprewboxinfo-box {
   background-color: #ebeced;
 }
+.overlayeffect {
+  background-color: #e2e2e2e0;
+}
 body > header {
   background-color: #ffffff;
 }
