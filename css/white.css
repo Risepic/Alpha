@@ -17,6 +17,15 @@ html, body {
 .pageopenintimelinefancy .prevtimelinebasicinfo {
   background-color: #ebeced;
 }
+.pageopenintimelinefancy .p-experience-all {
+  background-color: #ebeced;
+}
+.pageopenintimelinefancy .p-experience-roadmap {
+  background-color: #ebeced;
+}
+.pageopenintimelinefancy .p-experience-lists {
+  background-color: #ebeced;
+}
 body > header {
   background-color: #ffffff;
 }
