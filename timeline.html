@@ -20,13 +20,19 @@
   <div id="userdemoview" class="pageopenintimelinefancy">
 
   </div>
-  <script>
+  <script type="text/javascript">
       $("#userdemoLink").on("click", function(){
         $("#userdemoview").load("https://raw.githubusercontent.com/Risepic/Alpha/master/vcoursepreviewdemotimeline.html");
         $(".overlayeffect").removeClass("HIDEO");
         window.scrollTo(0,0);
       });
-    </script>
+  </script>
+  <script type="text/javascript">
+        $("#CLOSETIMELINEOBJECT").on("click", function(){
+          $("#VCOURSEPREVLOADTIMELINE").addClass("HIDEO");
+          $(".overlayeffect").addClass("HIDEO");
+        });
+  </script>
     <script type="text/javascript" src="./js/all.js"></script>
     <script type="text/javascript" src="./js/player.js"></script>
   </body>
