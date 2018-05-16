@@ -330,6 +330,16 @@ footer:hover {
 .pageopenintimelinefancy .contentprewboxwhat-box p {
   padding-right: 10%;
 }
+.pageopenintimelinefancy .requirementsprewpage {
+  width: 40%;
+  padding: 20px 5%;
+  display: inline-block;
+}
+.pageopenintimelinefancy .purposesprewpage {
+  width: 40%;
+  padding: 20px 5%;
+  display: inline-block;
+}
 .contentprewboxinfo-box-kindsofTITLE {
   font-size: 23px;
   font-weight: bold;
