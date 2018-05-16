@@ -339,6 +339,14 @@ footer:hover {
   display: inline-block;
   margin: 10px 0;
 }
+.contentprewboxwhat-box .TAGPREWWATHC {
+    display: inline-block;
+    font-size: 14px;
+    margin: 5px;
+    padding: 2px;
+    background-color: #000000;
+    color: #ffffff;
+}
 .overlayeffect {
   position: absolute;
   width: 100%;
