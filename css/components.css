@@ -295,6 +295,7 @@ footer:hover {
 }
 .pageopenintimelinefancy .qbox-prep-after {
   width: 30%;
+  opacity: 1;
 }
 .pageopenintimelinefancy .vbox-l-view {
   width: 70%;
@@ -328,6 +329,9 @@ footer:hover {
 }
 .pageopenintimelinefancy .contentprewboxwhat-box p {
   padding-right: 10%;
+}
+.contentprewboxinfo-box-kindsofTITLE {
+  font-size: 20px;
 }
 .overlayeffect {
   position: absolute;
