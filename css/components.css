@@ -304,6 +304,31 @@ footer:hover {
   width: 65%;
   padding: 0.2% 2.5%;
 }
+.pageopenintimelinefancy .contentprewboxinfo-box {
+  width: 65%;
+  margin: 0;
+  padding: 0.2% 2.5%;
+}
+.pageopenintimelinefancy .contentprewboxtext-box {
+  width: 100%;
+}
+.pageopenintimelinefancy .contentprewboxtext-box > figure {
+  display: none;
+}
+.pageopenintimelinefancy .contentprewboxwhat-box figure {
+    height: 130px;
+    padding-top: 0px;
+    width: 25%;
+}
+.pageopenintimelinefancy .contentprewboxwhat-box {
+    width: 100%;
+}
+.pageopenintimelinefancy .contentprewboxdesc-box {
+  height: 1px;
+}
+.pageopenintimelinefancy .contentprewboxwhat-box p {
+  padding-right: 10%;
+}
 .overlayeffect {
   position: absolute;
   width: 100%;
