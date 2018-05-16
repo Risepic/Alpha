@@ -298,6 +298,7 @@ footer:hover {
 }
 .pageopenintimelinefancy .vbox-l-view {
   width: 70%;
+  margin-top: 0;
 }
 .overlayeffect {
   position: absolute;
