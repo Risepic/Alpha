@@ -331,14 +331,36 @@ footer:hover {
   padding-right: 10%;
 }
 .pageopenintimelinefancy .requirementsprewpage {
-  width: 40%;
-  padding: 20px 5%;
+  width: 35%;
+  padding: 0px 4% 40px 4%;
   display: inline-block;
 }
 .pageopenintimelinefancy .purposesprewpage {
-  width: 40%;
-  padding: 20px 5%;
+  width: 35%;
+  padding: 0px 4% 40px 4%;
   display: inline-block;
+}
+.pageopenintimelinefancy .requirementsprewpage li {
+  color: #484848;
+  list-style: circle;
+  font-size: 17px;
+}
+.pageopenintimelinefancy .requirementsprewpage p {
+  color: #000000;
+  font-size: 21px;
+  padding-top: 0px;
+  font-weight: bold;
+}
+.pageopenintimelinefancy .purposesprewpage li {
+  color: #484848;
+  list-style: circle;
+  font-size: 17px;
+}
+.pageopenintimelinefancy .purposesprewpage p {
+  color: #000000;
+  font-size: 21px;
+  padding-top: 0px;
+  font-weight: bold;
 }
 .contentprewboxinfo-box-kindsofTITLE {
   font-size: 23px;
