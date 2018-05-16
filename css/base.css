@@ -58,6 +58,7 @@ textarea { overflow: auto; vertical-align: top; resize: vertical; }
 .OPA08 {opacity: 0.8 !important;}
 .OPA1 {opacity: 1 !important;}
 .HIDEO {opacity: 0 !important; display: none !important; z-index: -10000!important; text-indent: -99999999px!important;}
+.NOSCROLL {overflow: hidden !important;}
 .borderf {border-image-width: 0 0 0 0; border-bottom: 0;}
 .borderf:hover {border-bottom: 2px solid;  border-image-width: 0 0 2px 0;border-image-source:url("./imgP/toolbar_border.png"); border-image: url("./imgP/toolbar_border.png") 0 0 2 0 repeat; -webkit-border-image: url("./imgP/toolbar_border.png") 0 0 2 0 repeat; -moz-border-image: url("./imgP/toolbar_border.png") 0 0 2 0 repeat; -o-border-image:url("./imgP/toolbar_border.png") 0 0 2 0 repeat; border-color: #e4e4e4;-webkit-transition: border-bottom 1s linear;-moz-transition: border-bottom 1s linear;-o-transition: border-bottom 1s linear;transition: border-bottom 1s linear;}
 #footerhide {transition: bottom 0.3s ease-in-out;}

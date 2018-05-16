@@ -8,6 +8,9 @@ html, body {
   background-color: rgb(33, 33, 33);
   color: #ffffff;
 }
+.contentprewboxinfo-box {
+  background-color: #ebeced;
+}
 body > header {
   background-color: #ffffff;
 }
