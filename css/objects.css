@@ -162,7 +162,9 @@ footer .FOOTBACK {
   font-size: 13px;
 }
 .contentprewboxwhat-box h3 {
-  display: inline;
+  display: inline-block;
+  width: 100%;
+  padding-bottom: 10px;
 }
 .contentprewboxwhat-box figure img {
   width: 100%;
