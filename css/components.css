@@ -331,7 +331,13 @@ footer:hover {
   padding-right: 10%;
 }
 .contentprewboxinfo-box-kindsofTITLE {
-  font-size: 20px;
+  font-size: 23px;
+  font-weight: bold;
+  padding: 10px 3px;
+  background-color: #000000;
+  color: #ffffff;
+  display: inline-block;
+  margin: 10px 0;
 }
 .overlayeffect {
   position: absolute;
