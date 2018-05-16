@@ -327,7 +327,8 @@ footer:hover {
   height: 1px;
 }
 .pageopenintimelinefancy .contentprewboxwhat-box p {
-  padding-right: 10%;
+  padding-right: 16%;
+  padding-left: 3%;
 }
 .pageopenintimelinefancy .requirementsprewpage {
   width: 35%;
