@@ -347,6 +347,18 @@ footer:hover {
     background-color: #000000;
     color: #ffffff;
 }
+.CLOSETIMELINEOBJECT {
+  width: 20px;
+  height: 20px;
+  background-color: #ffffff;
+  padding: 20px;
+  position: fixed;
+  left: 0;
+  top: 50px;
+  color: #000000;
+  font-size: 20px;
+  font-weight: bold;
+}
 .overlayeffect {
   position: absolute;
   width: 100%;
