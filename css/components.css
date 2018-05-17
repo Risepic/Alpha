@@ -112,8 +112,14 @@ footer:hover {
   width: 100%;
 }
 .i-box-s {
-  width: 350px;
-  height: 180px;
+  width: 320px;
+  height: 170px;
+  /* @/* TODO:  */ background-color: #ffffff;
+  display: inline-block;
+}
+.i-box-xs {
+  width: 150px;
+  height: 150px;
   /* @/* TODO:  */ background-color: #ffffff;
   display: inline-block;
 }
