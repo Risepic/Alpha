@@ -59,7 +59,16 @@ footer:hover {
   height: 480px;
   position: relative;
   display: inline-block;
-  padding: 10px 0;
+  padding: 10px 0 10px 0.7%;
+  vertical-align: top;
+
+}
+.i-box-xxl-2 {
+  width: 49%;
+  height: 238px;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 4px;
 
 }
 .qbox-l {
@@ -425,4 +434,10 @@ footer:hover {
   font-size: 20px;
   font-weight: bold;
   z-index: 30;
+}
+.resumeothercontents {
+  width: 49%;
+  padding: 0;
+  display: inline-block;
+  padding: 10px 0% 6px 0%;;
 }
