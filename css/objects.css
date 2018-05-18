@@ -321,6 +321,9 @@ footer .FOOTBACK {
   padding-left: 2.5%;
   padding-right: 2.5%;
 }
+.thetimelinepage .timeline-XL {
+  background-color: transparent !important;
+}
 @media screen and (min-width: 0px) {
   .profileboxinfo-box {
     width: 800px;

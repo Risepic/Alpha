@@ -110,7 +110,6 @@ footer:hover {
 }
 .thetimelinepage {
   padding-top: 50px;
-  overflow-x: hidden;
 }
 .vbox {
   display: inline-block;
@@ -216,7 +215,6 @@ footer:hover {
   width: 100%;
   padding: 0;
   margin: 0;
-  /* @/* TODO:  */ height: 1000px;
 }
 .profileboxinfo {
   display: inline-block;
