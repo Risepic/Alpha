@@ -314,6 +314,12 @@ footer .FOOTBACK {
 .pageopenintimelinefancy .timeline-m .i-box-s {
   /* @/* TODO:  */ background-color: #e1e1e1 !important;
 }
+.thetimelinepage .timeline-XL .i-box-xs,
+.thetimelinepage .timeline-XL .i-box-s,
+.thetimelinepage .timeline-XL .i-box-m {
+  margin: 5px 2px;
+  display: inline-block;
+}
 .c-suggestion-otherfrom {
   width: 95%;
   display: inline-block;
@@ -323,6 +329,8 @@ footer .FOOTBACK {
 }
 .thetimelinepage .timeline-XL {
   background-color: transparent !important;
+  text-align: center;
+  padding-top: 30px;
 }
 @media screen and (min-width: 0px) {
   .profileboxinfo-box {

@@ -144,6 +144,12 @@ footer:hover {
   /* @/* TODO:  */ background-color: #ffffff;
   display: inline-block;
 }
+.i-box-m {
+  width: 430px;
+  height: 220px;
+  /* @/* TODO:  */ background-color: #ffffff;
+  display: inline-block;
+}
 .i-box-xs {
   width: 212px;
   height: 170px;
