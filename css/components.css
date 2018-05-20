@@ -140,15 +140,27 @@ footer:hover {
 }
 .i-box-s {
   width: 320px;
-  height: 170px;
+  height: 190px;
   /* @/* TODO:  */ background-color: #ffffff;
   display: inline-block;
+  vertical-align: top;
+}
+.i-box-s > img {
+  width: 320px;
+  height: 150px;
+  display: inline;
 }
 .i-box-m {
   width: 430px;
-  height: 220px;
+  height: 250px;
   /* @/* TODO:  */ background-color: #ffffff;
   display: inline-block;
+  vertical-align: top;
+}
+.i-box-m > img {
+  width: 430px;
+  height: 200px;
+  display: inline;
 }
 .i-box-xs {
   width: 212px;
