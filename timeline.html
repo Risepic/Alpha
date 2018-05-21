@@ -200,7 +200,7 @@
     <script src="https://vjs.zencdn.net/7.0.2/video.js"></script>
     <script type="text/javascript" src="//cdn.embed.ly/player-0.1.0.min.js"></script>
     <script type="text/javascript">
-      var video = document.getElementById('video');
+      var video = document.getElementById('Vcoursevid');
         video.load();
       var adapter = playerjs.HTML5Adapter(video);
         adapter.ready();
@@ -212,7 +212,7 @@
           $(".pageopenintimelinefancy").removeClass("HIDEO");
           window.scrollTo(0,0);
         });
-        
+
     </script>
     <script type="text/javascript">
         $(".userdemoLink").on("click", function(){
@@ -226,7 +226,7 @@
           $("#CLOSETIMELINEOBJECT").on("click", function(){
             $(".pageopenintimelinefancy").addClass("HIDEO");
             $("#CLOSETIMELINEOBJECT").addClass("HIDEO");
-            player.stop();
+            player.pause();
           });
           $("#CLOSETIMELINEOBJECT").keydown(function( event ) {
             if ( event.code == 'Escape' ) {
