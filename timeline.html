@@ -200,6 +200,12 @@
     <script src="https://vjs.zencdn.net/7.0.2/video.js"></script>
     <script type="text/javascript" src="//cdn.embed.ly/player-0.1.0.min.js"></script>
     <script type="text/javascript">
+      var video = document.getElementById('video');
+        video.load();
+      var adapter = playerjs.HTML5Adapter(video);
+        adapter.ready();
+    </script>
+    <script type="text/javascript">
         $(".videocoursedemoLink").on("click", function(){
           $("#demoview").load("https://raw.githubusercontent.com/Risepic/Alpha/master/vcoursepreviewdemotimeline.html");
           $("#CLOSETIMELINEOBJECT").removeClass("HIDEO");
