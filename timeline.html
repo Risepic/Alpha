@@ -217,6 +217,14 @@
             $(".pageopenintimelinefancy").addClass("HIDEO");
             $("#CLOSETIMELINEOBJECT").addClass("HIDEO");
           });
+          $("#CLOSETIMELINEOBJECT").keydown(function( event ) {
+            if ( event.code == 'Escape' ) {
+              console.log(event.code)
+              $(".pageopenintimelinefancy").addClass("HIDEO");
+              $("#CLOSETIMELINEOBJECT").addClass("HIDEO");
+              event.preventDefault();
+            }
+          });
     </script>
   </body>
 </html>
