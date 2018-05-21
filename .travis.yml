@@ -1,6 +1,6 @@
 language: node_js
 deploy:
   provider: s3
-  aws_access_key_id: "AKIAJHN2UV5PL53LIWUQ"
-  aws_secret_access_key: "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"
+  access_key_id: "AKIAJHN2UV5PL53LIWUQ"
+  secret_access_key: "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"
   bucket: "risepic-alpha"
