@@ -1,4 +1,5 @@
 language: node_js
+install: true
 deploy:
   provider: s3
   access_key_id: "AKIAJHN2UV5PL53LIWUQ"
