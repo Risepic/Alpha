@@ -192,7 +192,10 @@
   <a href="javascript:;" class="prevvid" style="width: 300px;height: 300px; display: inline-block;" id="videocoursedemoLink">Click MEEEEEEEEEEEEEEEEEEEEEEEEEEE</a>
   <a href="javascript:;" class="prevvid" style="width: 300px;height: 300px; display: inline-block;" id="userdemoLink">Click MEEEEEEEEEEEEEEEEEEEEEEEEEEE</a>
   <a href="javascript:;" id="CLOSETIMELINEOBJECT" class="CLOSETIMELINEOBJECT HIDEO">X</a>
-  <div id="demoview" class="pageopenintimelinefancy">
+  <a href="javascript:;" id="CLOSETIMELINEOBJECT2" class="CLOSETIMELINEOBJECT HIDEO">&#8629;</a>
+  <div id="demoview" class="pageopenintimelinefancy pageopenintimelinefancyfirst">
+  </div>
+  <div id="userview" class="pageopenintimelinefancy pageopenintimelinefancytop">
   </div>
     <script src="http://vjs.zencdn.net/ie8/ie8-version/videojs-ie8.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -202,32 +205,35 @@
         $(".videocoursedemoLink").on("click", function(){
           $("#demoview").load("http://risepic-alpha.s3-website-us-west-2.amazonaws.com/vcoursepreviewdemotimeline.html");
           $("#CLOSETIMELINEOBJECT").removeClass("HIDEO");
-          $(".pageopenintimelinefancy").removeClass("HIDEO");
+          $("#CLOSETIMELINEOBJECT2").addClass("HIDEO");
+          $(".pageopenintimelinefancyfirst").removeClass("HIDEO");
+          $(".pageopenintimelinefancytop").addClass("HIDEO");
           window.scrollTo(0,0);
         });
 
     </script>
     <script type="text/javascript">
         $(".userdemoLink").on("click", function(){
-          $("#demoview").load("http://risepic-alpha.s3-website-us-west-2.amazonaws.com/userdemoprofiletimeline.html");
-          $("#CLOSETIMELINEOBJECT").removeClass("HIDEO");
-          $(".pageopenintimelinefancy").removeClass("HIDEO");
+          $("#userview").load("http://risepic-alpha.s3-website-us-west-2.amazonaws.com/userdemoprofiletimeline.html");
+          $("#CLOSETIMELINEOBJECT").addClass("HIDEO");
+          $("#CLOSETIMELINEOBJECT2").removeClass("HIDEO");
+          $(".pageopenintimelinefancytop").removeClass("HIDEO");
+          $(".pageopenintimelinefancyfirst").addClass("HIDEO");
           window.scrollTo(0,0);
         });
     </script>
     <script type="text/javascript">
           $("#CLOSETIMELINEOBJECT").on("click", function(){
-            $(".pageopenintimelinefancy").addClass("HIDEO");
+            $(".pageopenintimelinefancyfirst").addClass("HIDEO");
+            $(".pageopenintimelinefancytop").addClass("HIDEO");
             $("#CLOSETIMELINEOBJECT").addClass("HIDEO");
-            player.pause();
+            $("#CLOSETIMELINEOBJECT2").addClass("HIDEO");
           });
-          $("#CLOSETIMELINEOBJECT").keydown(function( event ) {
-            if ( event.code == 'Escape' ) {
-              console.log(event.code)
-              $(".pageopenintimelinefancy").addClass("HIDEO");
-              $("#CLOSETIMELINEOBJECT").addClass("HIDEO");
-              event.preventDefault();
-            }
+          $("#CLOSETIMELINEOBJECT2").on("click", function(){
+            $(".pageopenintimelinefancytop").addClass("HIDEO");
+            $(".pageopenintimelinefancyfirst").removeClass("HIDEO");
+            $("#CLOSETIMELINEOBJECT").removeClass("HIDEO");
+            $("#CLOSETIMELINEOBJECT2").addClass("HIDEO");
           });
     </script>
   </body>

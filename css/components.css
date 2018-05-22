@@ -418,6 +418,9 @@ footer:hover {
   padding-bottom: 10px;
   font-weight: bold;
 }
+.pageopenintimelinefancytop {
+  z-index: 30;
+}
 .pageopenintimelinefancy .Whaitbutwhy {
   width: 100%;
   text-align: center;
