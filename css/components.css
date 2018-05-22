@@ -339,7 +339,6 @@ footer:hover {
   position: absolute;
   top: 50px;
   left: 0;
-  z-index: 25;
 }
 .pageopenintimelinefancy .qbox-prep-after {
   width: 30%;
@@ -420,6 +419,9 @@ footer:hover {
 }
 .pageopenintimelinefancytop {
   z-index: 30;
+}
+.pageopenintimelinefancyfirst {
+  z-index: 25;
 }
 .pageopenintimelinefancy .Whaitbutwhy {
   width: 100%;
