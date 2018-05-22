@@ -457,6 +457,19 @@ footer:hover {
   font-weight: bold;
   z-index: 30;
 }
+.creatorlinkOBJ2 {
+  width: 20px;
+  height: 20px;
+  background-color: #ffffff;
+  padding: 20px;
+  position: absolute;
+  right: 30%;
+  top: 50px;
+  color: #000000;
+  font-size: 16px;
+  font-weight: bold;
+  z-index: 30;
+}
 .resumeothercontents {
   width: 49%;
   padding: 0;
