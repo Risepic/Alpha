@@ -211,26 +211,10 @@
 
     </script>
     <script type="text/javascript">
-        $(".userdemoLink").on("click", function(){
-          $("#userview").load("http://risepic-alpha.s3-website-us-west-2.amazonaws.com/userdemoprofiletimeline.html");
-          $("#CLOSETIMELINEOBJECT").addClass("HIDEO");
-          $("#CLOSETIMELINEOBJECT2").removeClass("HIDEO");
-          $(".pageopenintimelinefancytop").removeClass("HIDEO");
-          $(".pageopenintimelinefancyfirst").addClass("HIDEO");
-          window.scrollTo(0,0);
-        });
-    </script>
-    <script type="text/javascript">
           $("#CLOSETIMELINEOBJECT").on("click", function(){
             $(".pageopenintimelinefancyfirst").addClass("HIDEO");
             $(".pageopenintimelinefancytop").addClass("HIDEO");
             $("#CLOSETIMELINEOBJECT").addClass("HIDEO");
-            $("#CLOSETIMELINEOBJECT2").addClass("HIDEO");
-          });
-          $("#CLOSETIMELINEOBJECT2").on("click", function(){
-            $(".pageopenintimelinefancytop").addClass("HIDEO");
-            $(".pageopenintimelinefancyfirst").removeClass("HIDEO");
-            $("#CLOSETIMELINEOBJECT").removeClass("HIDEO");
             $("#CLOSETIMELINEOBJECT2").addClass("HIDEO");
           });
     </script>
