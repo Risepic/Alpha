@@ -427,6 +427,9 @@ footer:hover {
   width: 100%;
   text-align: center;
 }
+.pageopenintimelinefancy .i-box-s {
+  vertical-align: baseline;
+}
 .contentprewboxinfo-box-kindsofTITLE {
   font-size: 23px;
   font-weight: bold;
