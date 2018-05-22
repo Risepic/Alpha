@@ -475,3 +475,6 @@ footer:hover {
   display: inline-block;
   padding: 10px 0% 6px 0%;;
 }
+.timelineother .i-box-s {
+  vertical-align: middle;
+}
