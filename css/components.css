@@ -555,6 +555,27 @@ footer .FOOTBACK {
 .question h6 {
   font-weight: bold;
 }
+.question .answer {
+  padding: 10px 0;
+}
+.question .answer .q-info {
+  display: inline-block;
+  margin-left: 5px;
+}
+.question .answer .q-who {
+  font-size: 9px;
+  font-weight: bold;
+}
+.question .answer .q-when {
+  font-size: 8px;
+  margin-bottom: 7px;
+}
+.question .answer figure {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: top;
+}
 .profileboxinfo-box header{
   padding-right: 10px;
   display: inline-block;
@@ -810,7 +831,7 @@ footer .FOOTBACK {
   font-size: 13px;
   padding: 5px;
   position: absolute;
-  bottom: 50px;
+  bottom: 40px;
   left: 0;
 }
 .pageopenintimelinefancy .timeline-m .i-box-xs,
