@@ -596,6 +596,7 @@ footer .FOOTBACK {
 }
 .question .answer p {
   font-size: 12px;
+  display: inline-block;
 }
 .profileboxinfo-box header{
   padding-right: 10px;
