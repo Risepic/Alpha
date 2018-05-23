@@ -57,7 +57,7 @@
           <img src="http://iampariah.com/x_assets/2017/02/ID_cover_spine.png">
         </a>
         <br>
-        <a class="i-box-s videocoursedemoLink">
+        <a class="i-box-s audioslidedemoLink">
           <span class="typeofcontent"><i class="em em-headphones"></i></span>
           <img src="https://cdn.lynda.com/course/53850/53850-16x9.jpg">
         </a>
@@ -74,15 +74,15 @@
           <img src="https://www.dayvandi.com/wp-content/uploads/2016/06/digital-marketing-seo-20161.jpg?x60132">
         </a>
         <br>
-        <a class="i-box-s videocoursedemoLink">
+        <a class="i-box-s audioslidedemoLink">
           <span class="typeofcontent"><i class="em em-headphones"></i></span>
           <img src="https://i.ytimg.com/vi/fdWoNBt6CcY/maxresdefault.jpg">
         </a>
-        <a class="i-box-s videocoursedemoLink">
+        <a class="i-box-s audioslidedemoLink">
           <span class="typeofcontent"><i class="em em-headphones"></i></span>
           <img src="https://store-images.s-microsoft.com/image/apps.53606.14382910273474582.14719bfd-077c-4560-a135-57031046f2fb.8aad764d-4c70-4a65-951a-d4dc959d8184?w=472&h=266&q=60">
         </a>
-        <a class="i-box-s videocoursedemoLink">
+        <a class="i-box-s audioslidedemoLink">
           <span class="typeofcontent"><i class="em em-headphones"></i></span>
           <img src="https://i.ytimg.com/vi/1KBC3tNcty8/maxresdefault.jpg">
         </a>
@@ -216,6 +216,18 @@
     <script type="text/javascript">
         $(".videocoursedemoLink").on("click", function(){
           $("#demoview").load("http://risepic-alpha.s3-website-us-west-2.amazonaws.com/vcoursepreviewdemotimeline.html");
+          $("#CLOSETIMELINEOBJECT").removeClass("HIDEO");
+          $("#CLOSETIMELINEOBJECT2").addClass("HIDEO");
+          $(".userdemoLink").removeClass("HIDEO");
+          $(".pageopenintimelinefancyfirst").removeClass("HIDEO");
+          $(".pageopenintimelinefancytop").addClass("HIDEO");
+          $(".thetimelinepage").addClass("HIDEO");
+          window.scrollTo(0,0);
+        });
+    </script>
+    <script type="text/javascript">
+        $(".audioslidedemoLink").on("click", function(){
+          $("#demoview").load("http://risepic-alpha.s3-website-us-west-2.amazonaws.com/audioslidepreviewdemotimeline.html");
           $("#CLOSETIMELINEOBJECT").removeClass("HIDEO");
           $("#CLOSETIMELINEOBJECT2").addClass("HIDEO");
           $(".userdemoLink").removeClass("HIDEO");
