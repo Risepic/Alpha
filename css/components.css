@@ -582,6 +582,8 @@ footer .FOOTBACK {
   font-weight: bold;
   text-align: left;
   display: inline-block;
+  font-size: 8px;
+  padding-left: 10px;
 }
 .question .answer .q-who {
   font-size: 10px;
