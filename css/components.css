@@ -608,6 +608,10 @@ footer .FOOTBACK {
   background-color: #000000;
   text-align: center;
   font-size: 8px;
+  margin: 0 auto;
+  display: inline-block;
+  width: 60px;
+  height: 30px;
 }
 .question .answer p {
   font-size: 13px;
