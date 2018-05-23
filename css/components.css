@@ -563,8 +563,8 @@ footer .FOOTBACK {
   font-size: 16px;
 }
 .question .answer {
-  padding: 5px 0 0 40px;
-  width: 70%;
+  padding: 5px 0 0 8%;
+  width: 90%;
 }
 .question .answer .q-info {
   display: inline-block;
@@ -580,12 +580,14 @@ footer .FOOTBACK {
 .question .answer .q-info .positivefeed {
   color: #0eb50f;
   font-weight: bold;
-  width: 100%;
   text-align: left;
+  display: inline-block;
 }
 .question .answer .q-who {
-  font-size: 9px;
+  font-size: 10px;
   font-weight: bold;
+  padding-bottom: 5px;
+  display: inline-block;
 }
 .question .answer .q-when {
   font-size: 8px;
@@ -599,7 +601,7 @@ footer .FOOTBACK {
   position: relative;
 }
 .question .answer p {
-  font-size: 12px;
+  font-size: 13px;
   display: inline-block;
   width: 100%;
 }
