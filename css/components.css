@@ -569,6 +569,7 @@ footer .FOOTBACK {
 .question .answer .q-info {
   display: inline-block;
   margin-left: 5px;
+  width: 80%;
 }
 .question .answer .q-info span {
   display: inline-block;
@@ -593,6 +594,14 @@ footer .FOOTBACK {
   height: 20px;
   display: inline-block;
   vertical-align: top;
+  position: relative;
+}
+.question .answer figure .positivefeed {
+  color: #0eb50f;
+  font-weight: bold;
+  position: absolute;
+  bottom: 5px;
+  left: 0;
 }
 .question .answer p {
   font-size: 12px;
