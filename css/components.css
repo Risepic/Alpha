@@ -796,11 +796,11 @@ footer .FOOTBACK {
   font-weight: bold;
 }
 .typeofcontent {
-  /* @/* TODO:  */ background-color: #000000;
+  /* @/* TODO:  */ background-color: #ffffff;
 }
 .i-box-m .typeofcontent {
-  font-size: 18px;
-  padding: 5px;
+  font-size: 20px;
+  padding: 7px;
   position: absolute;
   bottom: 50px;
   left: 0;
