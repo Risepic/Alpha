@@ -156,6 +156,7 @@ footer:hover {
   /* @/* TODO:  */ background-color: #ffffff;
   display: inline-block;
   vertical-align: top;
+  position: relative;
 }
 .i-box-m > img {
   width: 430px;
@@ -793,6 +794,16 @@ footer .FOOTBACK {
   background-color: #000000;
   color: #ffffff;
   font-weight: bold;
+}
+.typeofcontent {
+  /* @/* TODO:  */ background-color: #000000;
+}
+.i-box-m .typeofcontent {
+  font-size: 18px;
+  padding: 5px;
+  position: absolute;
+  bottom: 50px;
+  left: 0;
 }
 .pageopenintimelinefancy .timeline-m .i-box-xs,
 .pageopenintimelinefancy .timeline-m .i-box-s {
