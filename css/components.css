@@ -814,6 +814,7 @@ footer .FOOTBACK {
     width: 30%;
     top: 0;
     right: 0;
+    z-index: 20;
 }
 
 .pageopenintimelinefancy .timeline-m {
