@@ -580,6 +580,8 @@ footer .FOOTBACK {
 .question .answer .q-info .positivefeed {
   color: #0eb50f;
   font-weight: bold;
+  width: 100%;
+  text-align: left;
 }
 .question .answer .q-who {
   font-size: 9px;
@@ -596,16 +598,10 @@ footer .FOOTBACK {
   vertical-align: top;
   position: relative;
 }
-.question .answer figure .positivefeed {
-  color: #0eb50f;
-  font-weight: bold;
-  position: absolute;
-  bottom: 5px;
-  left: 0;
-}
 .question .answer p {
   font-size: 12px;
   display: inline-block;
+  width: 100%;
 }
 .profileboxinfo-box header{
   padding-right: 10px;
