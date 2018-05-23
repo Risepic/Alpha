@@ -574,7 +574,11 @@ footer .FOOTBACK {
   display: inline-block;
   width: 20%;
   text-align: center;
-  font-size: 13px;
+  font-size: 10px;
+}
+.question .answer .q-info .positivefeed {
+  color: #0eb50f;
+  font-weight: bold;
 }
 .question .answer .q-who {
   font-size: 9px;
