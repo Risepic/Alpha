@@ -799,8 +799,15 @@ footer .FOOTBACK {
   /* @/* TODO:  */ background-color: #ffffff;
 }
 .i-box-m .typeofcontent {
-  font-size: 20px;
+  font-size: 16px;
   padding: 7px;
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+}
+.i-box-s .typeofcontent {
+  font-size: 13px;
+  padding: 5px;
   position: absolute;
   bottom: 50px;
   left: 0;
