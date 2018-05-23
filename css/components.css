@@ -583,7 +583,7 @@ footer .FOOTBACK {
   text-align: center;
   font-size: 10px;
 }
-.question .answer .q-info .positivefeed {
+.question .positivefeed {
   color: #0eb50f;
   font-weight: bold;
   text-align: left;
