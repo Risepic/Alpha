@@ -602,6 +602,13 @@ footer .FOOTBACK {
   vertical-align: top;
   position: relative;
 }
+.question .answer .openmoreanswers {
+  padding-top: 10px;
+  color: #ffffff;
+  background-color: #000000;
+  text-align: center;
+  font-size: 8px;
+}
 .question .answer p {
   font-size: 13px;
   display: inline-block;
