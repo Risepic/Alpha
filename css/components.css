@@ -31,6 +31,10 @@ footer:hover {
   width: 30px;
   height: 30px;
 }
+.u-picbox-xs {
+  width: 20px;
+  height: 20px;
+}
 .u-picbox-xl {
   width: 200px;
   height: 200px;
@@ -555,8 +559,12 @@ footer .FOOTBACK {
 .question h6 {
   font-weight: bold;
 }
+.question p {
+  font-size: 16px;
+}
 .question .answer {
-  padding: 10px 0;
+  padding: 5px 0 0 40px;
+  width: 70%;
 }
 .question .answer .q-info {
   display: inline-block;
@@ -575,6 +583,9 @@ footer .FOOTBACK {
   height: 20px;
   display: inline-block;
   vertical-align: top;
+}
+.question .answer p {
+  font-size: 12px;
 }
 .profileboxinfo-box header{
   padding-right: 10px;
