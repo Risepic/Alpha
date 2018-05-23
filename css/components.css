@@ -569,7 +569,7 @@ footer .FOOTBACK {
   width: 90%;
 }
 .ratingdescription {
-  font-size: 11px;
+  font-size: 11px !important;
   padding-top: 5px;
 }
 .question .answer .q-info {
