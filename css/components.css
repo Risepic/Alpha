@@ -144,6 +144,7 @@ footer:hover {
   /* @/* TODO:  */ background-color: #ffffff;
   display: inline-block;
   vertical-align: top;
+  position: relative;
 }
 .i-box-s > img {
   width: 320px;
