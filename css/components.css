@@ -542,6 +542,7 @@ footer .FOOTBACK {
   display: inline-block;
   margin-left: 5px;
   margin-bottom: 10px;
+  width: 84%;
 }
 .question .q-who {
   font-size: 11px;
@@ -568,7 +569,8 @@ footer .FOOTBACK {
   width: 90%;
 }
 .ratingdescription {
-  font-size: 12px;
+  font-size: 11px;
+  padding-top: 5px;
 }
 .question .answer .q-info {
   display: inline-block;
