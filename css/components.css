@@ -567,6 +567,9 @@ footer .FOOTBACK {
   padding: 5px 0 0 8%;
   width: 90%;
 }
+.ratingdescription {
+  font-size: 12px;
+}
 .question .answer .q-info {
   display: inline-block;
   margin-left: 5px;
