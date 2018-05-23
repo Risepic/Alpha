@@ -150,6 +150,9 @@ footer:hover {
   vertical-align: top;
   position: relative;
 }
+.timeline-m .i-box-s {
+  height: 150px;
+}
 .i-box-s > img {
   width: 320px;
   height: 150px;
@@ -162,6 +165,9 @@ footer:hover {
   display: inline-block;
   vertical-align: top;
   position: relative;
+}
+.timeline-m .i-box-m {
+  height: 200px;
 }
 .i-box-m > img {
   width: 430px;
