@@ -570,6 +570,12 @@ footer .FOOTBACK {
   display: inline-block;
   margin-left: 5px;
 }
+.question .answer .q-info span {
+  display: inline-block;
+  width: 20%;
+  text-align: center;
+  font-size: 13px;
+}
 .question .answer .q-who {
   font-size: 9px;
   font-weight: bold;
