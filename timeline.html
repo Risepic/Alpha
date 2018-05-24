@@ -52,7 +52,7 @@
           <span class="typeofcontent"><i class="em em-film_projector"></i></span>
           <img src="https://d2ybmm5cpznb3i.cloudfront.net/wp-content/uploads/2016/10/Book-design-101.jpg">
         </a>
-        <a class="i-box-m videocoursedemoLink">
+        <a class="i-box-m audiovrdemoLink">
           <span class="typeofcontent"><i class="em em-globe_with_meridians"></i></span>
           <img src="http://iampariah.com/x_assets/2017/02/ID_cover_spine.png">
         </a>
@@ -91,7 +91,7 @@
           <img src="https://i0.wp.com/chainskills.com/wp-content/uploads/2017/12/bootcamp-og.jpg?fit=1200%2C630">
         </a>
         <br>
-        <a class="i-box-s videocoursedemoLink">
+        <a class="i-box-s audiovrdemoLink">
           <span class="typeofcontent"><i class="em em-globe_with_meridians"></i></span>
           <img src="https://phaser.io/images/shop/courses/zenva.png">
         </a>
@@ -129,7 +129,7 @@
           <img src="https://d3q6qq2zt8nhwv.cloudfront.net/873/12226_034e_6.card.jpg">
         </a>
         <br>
-        <a class="i-box-s videocoursedemoLink">
+        <a class="i-box-s audiovrdemoLink">
           <span class="typeofcontent"><i class="em em-globe_with_meridians"></i></span>
           <img src="https://virtumente.com/wp-content/uploads/1522640128_maxresdefault.jpg">
         </a>
@@ -146,7 +146,7 @@
           <img src="http://www.studytonight.com/game-development-in-2D/images/2D-game-dev-course.jpg">
         </a>
         <br>
-        <a class="i-box-s videocoursedemoLink">
+        <a class="i-box-s audiovrdemoLink">
           <span class="typeofcontent"><i class="em em-globe_with_meridians"></i></span>
           <img src="https://www.tecmint.com/wp-content/uploads/2017/11/Unity-Game-Development-Course.jpg">
         </a>
@@ -264,6 +264,18 @@
     <script type="text/javascript">
         $(".audioslidedemoLink").on("click", function(){
           $("#demoview").load("http://risepic-alpha.s3-website-us-west-2.amazonaws.com/audioslidepreviewdemotimeline.html");
+          $("#CLOSETIMELINEOBJECT").removeClass("HIDEO");
+          $("#CLOSETIMELINEOBJECT2").addClass("HIDEO");
+          $(".userdemoLink").removeClass("HIDEO");
+          $(".pageopenintimelinefancyfirst").removeClass("HIDEO");
+          $(".pageopenintimelinefancytop").addClass("HIDEO");
+          $(".thetimelinepage").addClass("HIDEO");
+          window.scrollTo(0,0);
+        });
+    </script>
+    <script type="text/javascript">
+        $(".audiovrdemoLink").on("click", function(){
+          $("#demoview").load("http://risepic-alpha.s3-website-us-west-2.amazonaws.com/audiovrpreviewdemotimeline.html");
           $("#CLOSETIMELINEOBJECT").removeClass("HIDEO");
           $("#CLOSETIMELINEOBJECT2").addClass("HIDEO");
           $(".userdemoLink").removeClass("HIDEO");
