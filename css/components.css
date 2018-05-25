@@ -751,14 +751,15 @@ footer .FOOTBACK {
   display: inline-block;
   width: 50%;
   padding-top: 20px;
-  padding-right: 16%;
-  padding-left: 3%;
+  padding-right: 10%;
+  padding-left: 8%;
 }
 .booksubchapter {
   font-size: 15px;
   line-height: 1.2;
   font-weight: bold;
-  list-style: circle;
+  list-style: decimal-leading-zero;
+  padding-bottom: 18px;
 }
 .booksubchapter span {
   font-size: 11px;
