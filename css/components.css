@@ -743,6 +743,22 @@ footer .FOOTBACK {
   font-size: 13px;
   line-height: 1.2;
 }
+.booksubchapters {
+  display: inline-block;
+  width: 50%;
+  padding-top: 20px;
+  padding-right: 5%;
+}
+.booksubchapter {
+  font-size: 15px;
+  line-height: 1.2;
+  font-weight: bold;
+  list-style: circle;
+}
+.booksubchapter span {
+  font-size: 12px;
+  font-weight: normal;
+}
 .contentprewboxwhat-box span {
   display: inline;
   font-size: 13px;
