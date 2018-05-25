@@ -44,7 +44,7 @@
     <div class="c-suggestion-otherfrom">
       <h2>Learn something new today? <i class="em em-sunny"></i></h2>
       <div class="timeline timeline-XL">
-        <a class="i-box-m videocoursedemoLink">
+        <a class="i-box-m bookdemoLink">
         <span class="typeofcontent"><i class="em em-blue_book"></i></span>
         <img src="https://cdn.lynda.com/course/85324/85324-636262918838303778-16x9.jpg">
       </a>
@@ -69,7 +69,7 @@
           <span class="typeofcontent"><i class="em em-film_projector"></i></span>
           <img src="https://www.theagencyforeducation.co.uk/wp-content/uploads/2016/03/DIGITAL_MARKETING_BOOK.jpg">
         </a>
-        <a class="i-box-s videocoursedemoLink">
+        <a class="i-box-s bookdemoLink">
           <span class="typeofcontent"><i class="em em-blue_book"></i></span>
           <img src="https://www.dayvandi.com/wp-content/uploads/2016/06/digital-marketing-seo-20161.jpg?x60132">
         </a>
@@ -86,7 +86,7 @@
           <span class="typeofcontent"><i class="em em-headphones"></i></span>
           <img src="https://i.ytimg.com/vi/1KBC3tNcty8/maxresdefault.jpg">
         </a>
-        <a class="i-box-s videocoursedemoLink">
+        <a class="i-box-s bookdemoLink">
           <span class="typeofcontent"><i class="em em-blue_book"></i></span>
           <img src="https://i0.wp.com/chainskills.com/wp-content/uploads/2017/12/bootcamp-og.jpg?fit=1200%2C630">
         </a>
@@ -124,7 +124,7 @@
           <span class="typeofcontent"><i class="em em-headphones"></i></span>
           <img src="http://www.clintonkeith.com/aaa_gems_img.png">
         </a>
-        <a class="i-box-s videocoursedemoLink">
+        <a class="i-box-s bookdemoLink">
           <span class="typeofcontent"><i class="em em-blue_book"></i></span>
           <img src="https://d3q6qq2zt8nhwv.cloudfront.net/873/12226_034e_6.card.jpg">
         </a>
@@ -215,7 +215,7 @@
           <span class="typeofcontent"><i class="em em-headphones"></i></span>
           <img src="http://moodle.bps.school/pluginfile.php/912/course/overviewfiles/coding-learning-cover.jpg">
         </a>
-        <a class="i-box-s videocoursedemoLink">
+        <a class="i-box-s bookdemoLink">
           <span class="typeofcontent"><i class="em em-blue_book"></i></span>
           <img src="http://www.rasmussen.edu/~/media/images/blogs/school-of-technology/whylearntocode_banner.ashx?la=en">
         </a>
@@ -270,7 +270,7 @@
           <span class="typeofcontent"><i class="em em-headphones"></i></span>
           <img src="https://www.excelcampus.com/wp-content/uploads/2016/01/The-VBA-Pro-Course-Cover-Learn-by-Building-Apps-480x270.png">
         </a>
-        <a class="i-box-s videocoursedemoLink">
+        <a class="i-box-s bookdemoLink">
           <span class="typeofcontent"><i class="em em-blue_book"></i></span>
           <img src="https://static.skillshare.com/uploads/parentClasses/666e033c3bd815925658e2fdc86f8f51/d359a07a">
         </a>
@@ -347,6 +347,18 @@
     </script>
     <script type="text/javascript">
         $(".audiovrdemoLink").on("click", function(){
+          $("#demoview").load("http://risepic-alpha.s3-website-us-west-2.amazonaws.com/audiovrpreviewdemotimeline.html");
+          $("#CLOSETIMELINEOBJECT").removeClass("HIDEO");
+          $("#CLOSETIMELINEOBJECT2").addClass("HIDEO");
+          $(".userdemoLink").removeClass("HIDEO");
+          $(".pageopenintimelinefancyfirst").removeClass("HIDEO");
+          $(".pageopenintimelinefancytop").addClass("HIDEO");
+          $(".thetimelinepage").addClass("HIDEO");
+          window.scrollTo(0,0);
+        });
+    </script>
+    <script type="text/javascript">
+        $(".bookdemoLink").on("click", function(){
           $("#demoview").load("http://risepic-alpha.s3-website-us-west-2.amazonaws.com/audiovrpreviewdemotimeline.html");
           $("#CLOSETIMELINEOBJECT").removeClass("HIDEO");
           $("#CLOSETIMELINEOBJECT2").addClass("HIDEO");
