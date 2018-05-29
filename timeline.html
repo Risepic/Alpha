@@ -10,9 +10,10 @@
       <link rel="image_src" href="./img/logo.png" />
       <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
       <link href="https://vjs.zencdn.net/7.0.2/video-js.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intro.js@2/introjs.min.css">
     </head>
 <body id="index">
-  <header></header>
+  <header class="header" data-step="1" data-intro='This is your Timeline'></header>
   <div class="thetimelinepage">
     <div class="c-resume-timeline">
       <div class="resumelastcontent">
@@ -400,6 +401,10 @@
             $("#CLOSETIMELINEOBJECT2").addClass("HIDEO");
             $(".thetimelinepage").removeClass("HIDEO");
           });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/intro.js@2/intro.min.js"></script>
+    <script type="text/javascript">
+      introJs(".header").start();
     </script>
   </body>
 </html>
