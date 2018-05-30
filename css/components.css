@@ -952,6 +952,19 @@ footer .FOOTBACK {
 .ALPHAWELLCOME h5 {
   font-size: 70px;
   padding-top: 100px;
+  color: #ffffff;
+}
+.ALPHAWELLCOME p {
+  font-size: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #ffffff;
+}
+.ALPHAWELLCOME a {
+  padding: 30px;
+  font-size: 30px;
+  background-color: #FFFF00
+  color: #000000;
 }
 @media screen and (min-width: 0px) {
   .profileboxinfo-box {
