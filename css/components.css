@@ -937,6 +937,22 @@ footer .FOOTBACK {
   text-align: center;
   padding-top: 30px;
 }
+.ALPHAWELLCOME {
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  text-align: center;
+  position: absolute;
+  z-index: 10000000;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.ALPHAWELLCOME h5 {
+  font-size: 70px;
+  padding-top: 100px;
+}
 @media screen and (min-width: 0px) {
   .profileboxinfo-box {
     width: 800px;

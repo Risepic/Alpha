@@ -13,8 +13,14 @@
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intro.js@2/introjs.min.css">
     </head>
 <body id="index">
-  <header class="header" data-step="1" data-intro='This is your Timeline'></header>
-  <div class="thetimelinepage">
+  <div class="ALPHAWELLCOME">
+    <h5>Wellcome to the Risepic 0.3 Alpha</h5>
+    <p>To have the best experience please use your laptop <i class="em em-computer"></i></p>
+    <p>We'll be happy if you share your feedback to us <i class="em em-star2"></i> <i class="em em-email"></i> info@risepic.com<i class="em em-computer"></i></p>
+    <a class="wellcometothealpha" data-step="1" data-intro='This is your Timeline'>Start</a>
+  </div>
+  <header></header>
+  <div class="thetimelinepage HIDEO">
     <div class="c-resume-timeline">
       <div class="resumelastcontent">
         <figure class="i-box-xxl">
@@ -399,6 +405,12 @@
             $(".userdemoLink").addClass("HIDEO");
             $("#CLOSETIMELINEOBJECT").addClass("HIDEO");
             $("#CLOSETIMELINEOBJECT2").addClass("HIDEO");
+            $(".thetimelinepage").removeClass("HIDEO");
+          });
+    </script>
+    <script type="text/javascript">
+          $("#wellcometothealpha").on("click", function(){
+            $(".ALPHAWELLCOME").addClass("HIDEO");
             $(".thetimelinepage").removeClass("HIDEO");
           });
     </script>
