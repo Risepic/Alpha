@@ -384,6 +384,7 @@
     <script type="text/javascript" src="./js/all.js"></script>
     <script src="https://vjs.zencdn.net/7.0.2/video.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/intro.js@2/intro.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="./js/parallax.js"></script>
     <script type="text/javascript">
         $(".videocoursedemoLink").on("click", function(){
           $("#demoview").load("http://risepic-alpha.s3-website-us-west-2.amazonaws.com/vcoursepreviewdemotimeline.html");
@@ -470,10 +471,9 @@
             $(".thetimelinepage").removeClass("HIDEO");
           });
     </script>
-    <script type="text/javascript" charset="utf-8" src="./js/parallax.js"></script>
     <script type="text/javascript">
-  var scene = document.getElementById('spaceinveders');
-  var parallax = new Parallax(scene,{});
+      var scene = document.getElementById('spaceinveders');
+      var parallax = new Parallax(scene,{});
     </script>
   </body>
 </html>
