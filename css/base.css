@@ -76,3 +76,59 @@ h6 {font-size: 16px;}
 /* ICONS BASICS */
 .BRAND {width: 45px; height: 45px;display: inline-block; background-image: url('./imgP/BRAND-COLOR-SPRITES.png'); background-repeat: no-repeat;}
 .SEARCHICON {width: 20px; height: 20px; background-repeat: no-repeat; background-position: 0px 0px; display: inline-block;}
+.spaceIcon {background-image: url("./img/space.png"); background-repeat: no-repeat; display: block; position: absolute; z-index: 4;}
+.spaceFallen {background-position: 1px 1px; width: 70px; height: 70px;top: 10px;left: 20px;}
+.spacemagicmoon {background-position: 0px -77px; width: 70px; height: 50px;top: 300px;right: 20px;}
+.spacefancy {background-position: 0px -147px; width: 70px; height: 70px;bottom: 10px;left: 100px;}
+.spaceMoon {background-position: 0px -236px; width: 70px; height: 70px;bottom: 90px;left: 400px;}
+.spaceMan {background-position: -5px -337px; width: 70px; height: 70px;bottom: 200px;right: 400px;}
+.spaceGalaxy {background-position: 0px -444px; width: 70px; height: 70px;bottom: 0px;right: 10px;}
+.spaceSaturn {background-position: 0px -534px; width: 70px; height: 50px;top: 40px;right: 192px;}
+.spaceOpt {background-position: 0px -601px; width: 70px; height: 50px;bottom: 300px;right: 80px;}
+.spaceSun {background-position: 0px -1480px; width: 70px; height: 70px; position: relative !important; display: inline-block; margin: 30px auto;}
+.spaceUfoB {background-position: 0px -676px; width: 70px; height: 50px;bottom: 300px;left: 5px;}
+.spaceTRAVELER {background-position: 0px -739px; width: 70px; height: 70px;top: 280px;left: 110px;}
+.spaceStar {background-position: 0px -833px; width: 70px; height: 70px;bottom: 0px;left: 650px;}
+.spaceINV {background-position: 0px -910px; width: 70px; height: 40px;bottom: 70px;right: 700px;}
+.space007 {background-position: 0px -965px; width: 70px; height: 40px;bottom: 104px;right: 200px;}
+.spaceEnterprise {background-position: 0px -1022px; width: 70px; height: 28px;bottom: 404px;right: 300px;}
+.spaceDARKSIDE {background-position: 0px -1059px; width: 70px; height: 38px;bottom: 272px;left: 230px;}
+.spaceR2D2 {background-position: 0px -1108px; width: 70px; height: 38px;bottom: 0px;right: 430px;}
+.spaceROCKET {background-position: 0px -1148px; width: 70px; height: 38px;bottom: 420px;left: 730px;}
+.spaceUFOC {background-position: 0px -1198px; width: 70px; height: 38px;bottom: 320px;right: 830px;}
+.spaceFALLENs {background-position: 0px -1238px; width: 70px; height: 38px;bottom: 300px;left: 630px;}
+.spaceLunarS {background-position: 0px -1266px; width: 70px; height: 38px;bottom: 230px;left: 830px;}
+.spaceStar2 {background-position: 0px -833px; width: 70px; height: 70px;bottom: 140px;right: 800px;}
+.spaceStar3 {background-position: 0px -833px; width: 70px; height: 70px;bottom: 350px;right: 588px;}
+.spaceBlackholes {background-position: 0px -1300px; width: 70px; height: 38px;bottom: 330px;left: 408px;}
+.spaceManSleft {background-position: 0px -1332px; width: 25px; height: 38px;bottom: 440px;left: 130px;}
+.spaceManSright {background-position: -43px -1332px; width: 25px; height: 38px;top: 239px;left: 330px;}
+.spaceStationSS {background-position: -0px -1371px; width: 55px; height: 38px;top: 309px;left: 430px;}
+.spaceUFOCs {background-position: -0px -1407px; width: 55px; height: 29px;top: 266px;right: 430px;}
+.spaceStarSS {background-position: -0px -1440px; width: 40px; height: 29px;top: 340px;right: 520px;}
+.spaceStarSS2 {background-position: -0px -1440px; width: 40px; height: 29px;bottom: 410px;left: 300px;}
+.spaceStarSS3 {background-position: -0px -1440px; width: 40px; height: 29px;bottom: 567px;left: 80px;}
+.spaceStarSS4 {background-position: -0px -1440px; width: 40px; height: 29px;bottom: 650px;left: 0px;}
+.spaceStarSS5 {background-position: -0px -1440px; width: 40px; height: 29px;bottom: 650px;right: 0px;}
+.spaceStarXS {background-position: -42px -1440px; width: 23px; height: 22px;top: 0px;left: 50%;}
+.spaceStarXS2 {background-position: -42px -1440px; width: 23px; height: 22px;bottom: 50px;right: 50%;}
+.spaceStarXS3 {background-position: -42px -1440px; width: 23px; height: 22px;top: 300px;right: 250px;}
+.spaceStarXS4 {background-position: -42px -1440px; width: 23px; height: 22px;bottom: 300px;right: 250px;}
+.spaceStarXS5 {background-position: -42px -1440px; width: 23px; height: 22px;top: 200px;right: 125px;}
+.spaceStarXS6 {background-position: -42px -1440px; width: 23px; height: 22px;bottom: 500px;right: 125px;}
+.spaceStarXS7 {background-position: -42px -1440px; width: 23px; height: 22px;bottom: 560px;right: 50%;}
+.spaceStarXS8 {background-position: -42px -1440px; width: 23px; height: 22px;bottom: 80%;right: 70%;}
+.spaceStarXS9 {background-position: -42px -1440px; width: 23px; height: 22px;top: 15%;left: 10%;}
+.spaceStarXS10 {background-position: -42px -1440px; width: 23px; height: 22px;top: 18%;left: 55%;}
+.spaceStarXS11 {background-position: -42px -1440px; width: 23px; height: 22px;top: 43%;right: 30%;}
+.spaceStarXS12 {background-position: -42px -1440px; width: 23px; height: 22px;top: 45%;left: 20%;}
+.godoraliens {background-position: -15px -1550px;width: 42px;height: 40px;top: 51%;left: 32%;}
+.sputnik {background-position: -15px -1597px;width: 42px;height: 40px;top: 38%;left: 44%;}
+.mars {background-position: -15px -1644px;width: 42px;height: 40px;top: 42%;right: 17%;}
+.moonshuttle {background-position: -4px -1689px;width: 23px;height: 31px;top: 14%;right: 29%;}
+.nomansky {background-position: -36px -1689px;width: 29px;height: 31px;top: 35%;right: 40%;}
+.ironmanspace {background-position: 0px -1721px;width: 35px;height: 31px;bottom: 19%;left: 30%;}
+.etinspace {background-position: -37px -1722px;width: 35px;height: 31px;top: 37%;left: 30%;}
+.thedoctor {background-position: -20px -1759px;width: 35px;height: 34px;top: 10%;left: 20%;}
+.illuminatirise {background-image: url("./img/illuminatirise.png"); background-repeat: no-repeat; display: block; position: absolute; z-index: 4; width: 140px; height: 140px; background-position: 0 0;position: relative !important; display: none; margin: 30px auto;}
+.worldinvadersHELI {background-position: -0px -0px; width: 50px; height: 22px;bottom: 0px;right: 0px;}

@@ -963,6 +963,7 @@ footer .FOOTBACK {
   padding-top: 20px;
   padding-bottom: 20px;
   color: #ffffff;
+  background-color: #000000;
 }
 .ALPHAWELLCOME a {
   padding: 10px 30px;
@@ -972,6 +973,9 @@ footer .FOOTBACK {
   font-size: 30px;
   background-color: #FFFF00;
   color: #000000;
+}
+.ALPHAWELLCOME a:hover {
+  background-color: #ffffff;
 }
 @media screen and (min-width: 0px) {
   .profileboxinfo-box {
