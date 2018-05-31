@@ -74,7 +74,7 @@ h6 {font-size: 16px;}
 /* ICONS TOOLS */
 .icon_circle {-webkit-border-radius: 50% !important;-webkit-border-radius: 9999999px; -moz-border-radius: 50% !important; -moz-border-radius: 9999999px; border-radius: 50% !important; border-radius: 9999999px; border-top-right-radius: 50% !important;border-top-left-radius: 50% !important;border-bottom-right-radius: 50% !important;border-bottom-left-radius: 50% !important;border-top-right-radius: 9999999px;border-top-left-radius: 9999999px;border-bottom-right-radius: 9999999px;border-bottom-left-radius: 9999999px;}
 /* ICONS BASICS */
-.spaceIcon {background-image: url("https://www.github.com/Risepic/Alpha/blob/master/img/black-space.png"); background-repeat: no-repeat; display: block; position: absolute; z-index: 4;}
+.BlackspaceIcon {background-image: url("https://www.github.com/Risepic/Alpha/blob/master/img/black-space.png"); background-repeat: no-repeat; display: block; position: absolute; z-index: 4;}
 .spaceFallen {background-position: 1px 1px; width: 70px; height: 70px;top: 10px;left: 20px;}
 .spacemagicmoon {background-position: 0px -77px; width: 70px; height: 50px;top: 300px;right: 20px;}
 .spacefancy {background-position: 0px -147px; width: 70px; height: 70px;bottom: 10px;left: 100px;}

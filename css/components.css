@@ -975,6 +975,7 @@ footer .FOOTBACK {
 }
 .ALPHAWELLCOME a:hover {
   background-color: #ffffff;
+  font-weight: bold;
 }
 .ALPHAWELLCOME .spaceinvaders {
   background-color: #535154; width: 100%; min-height: 100%;position: fixed; top: 0px; left: 0px; bottom: 0px;right: 0px; display: block;
