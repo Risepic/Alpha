@@ -952,7 +952,6 @@ footer .FOOTBACK {
 .ALPHAWELLCOME h5 {
   font-size: 70px;
   padding-top: 100px;
-  padding-bottom: 200px;
   color: #ffffff;
   z-index: 3;
 }
@@ -973,6 +972,8 @@ footer .FOOTBACK {
   font-size: 30px;
   background-color: #FFFF00;
   color: #000000;
+  margin-top: 150px;
+  display: inline-block;
 }
 .ALPHAWELLCOME article {
   position: absolute;
