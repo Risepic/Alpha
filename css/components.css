@@ -970,13 +970,17 @@ footer .FOOTBACK {
 }
 .ALPHAWELLCOME a {
   padding: 10px 30px;
-  position: absolute;
-  bottom: 100px;
-  left: 45%;
   font-size: 30px;
   background-color: #FFFF00;
   color: #000000;
+}
+.ALPHAWELLCOME article {
+  position: absolute;
+  bottom: 100px;
+  left: 0;
+  width: 100%;
   z-index: 3;
+  text-align: center;
 }
 .ALPHAWELLCOME a:hover {
   background-color: #ffffff;
