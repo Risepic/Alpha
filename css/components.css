@@ -977,6 +977,9 @@ footer .FOOTBACK {
 .ALPHAWELLCOME a:hover {
   background-color: #ffffff;
 }
+.ALPHAWELLCOME .spaceinvaders {
+  background-color: #535154; width: 100%; min-height: 100%;position: fixed; top: 0px; left: 0px; bottom: 0px;right: 0px; display: block;
+}
 @media screen and (min-width: 0px) {
   .profileboxinfo-box {
     width: 800px;
