@@ -75,7 +75,7 @@ h6 {font-size: 16px;}
 .icon_circle {-webkit-border-radius: 50% !important;-webkit-border-radius: 9999999px; -moz-border-radius: 50% !important; -moz-border-radius: 9999999px; border-radius: 50% !important; border-radius: 9999999px; border-top-right-radius: 50% !important;border-top-left-radius: 50% !important;border-bottom-right-radius: 50% !important;border-bottom-left-radius: 50% !important;border-top-right-radius: 9999999px;border-top-left-radius: 9999999px;border-bottom-right-radius: 9999999px;border-bottom-left-radius: 9999999px;}
 /* ICONS BASICS */
 .BlackspaceIcon {background-image: url("https://github.com/Risepic/Alpha/raw/master/img/black-space.png"); background-repeat: no-repeat; display: block; position: absolute; z-index: 2;}
-.BrandspaceIcon {background-image: url("https://github.com/Risepic/Alpha/raw/master/img/brand.png"); background-repeat: no-repeat; display: block; z-index: 3;background-position: 0px 0px; width: 100px; height: 100px;}
+.BrandspaceIcon {background-image: url("https://github.com/Risepic/Alpha/raw/master/img/brand.png"); background-repeat: no-repeat; background-position: 0px 0px; width: 100px; height: 100px; display: inline-block;position: absolute;top: 45%;left: 47%;}
 .spaceFallen {background-position: 1px 1px; width: 70px; height: 70px;top: 10px;left: 20px;}
 .spacemagicmoon {background-position: 0px -77px; width: 70px; height: 50px;top: 300px;right: 20px;}
 .spacefancy {background-position: 0px -147px; width: 70px; height: 70px;bottom: 10px;left: 100px;}
