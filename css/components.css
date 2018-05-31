@@ -967,7 +967,7 @@ footer .FOOTBACK {
 }
 .ALPHAWELLCOME a {
   padding: 10px 30px;
-  display: absolute;
+  position: absolute;
   bottom: 100px;
   left: 45%;
   font-size: 30px;
