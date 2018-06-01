@@ -280,6 +280,17 @@ footer:hover {
   width: 100%;
   position: relative;
 }
+.taskprewboxinfo {
+  display: inline-block;
+  width: 100%;
+  position: relative;
+}
+.taskprewboxinfo-box {
+  display: block;
+  padding: 80px 0 80px 0;
+  margin: 0 auto;
+  text-align: left;
+}
 .profileboxinfo-box {
   display: block;
   padding: 80px 0 80px 0;
@@ -506,6 +517,18 @@ footer:hover {
   top: 50px;
   color: #000000;
   font-size: 16px;
+  font-weight: bold;
+  z-index: 30;
+}
+.projectheader2 {
+  height: 20px;
+  background-color: #ffffff;
+  padding: 20px;
+  position: fixed;
+  left: 20px;
+  top: 50px;
+  color: #000000;
+  font-size: 20px;
   font-weight: bold;
   z-index: 30;
 }

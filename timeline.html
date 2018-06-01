@@ -232,7 +232,7 @@
     <div class="c-suggestion-otherfrom">
       <h2>It's time to do some stuff with your skills! <i class="em em-computer"></i></h2>
       <div class="timeline timeline-XL">
-        <div class="i-box-xs"></div>
+        <a class="i-box-xs taskdemoLink"></a>
         <div class="i-box-xs"></div>
         <div class="i-box-xs"></div>
         <div class="i-box-xs"></div>
@@ -378,7 +378,9 @@
   </div>
   <a href="javascript:;" id="CLOSETIMELINEOBJECT" class="CLOSETIMELINEOBJECT HIDEO">X</a>
   <a href="javascript:;" id="CLOSETIMELINEOBJECT2" class="CLOSETIMELINEOBJECT HIDEO">&#8629;</a>
-  <a class="userdemoLink creatorlinkOBJ2 HIDEO" href="javascript:;"> with <i class="em em-heart"></i> from <span class="bold">A serious guy</span></a>
+  <a class="userdemoLink creatorlinkOBJ2 HIDEO" href="javascript:;"> With <i class="em em-heart"></i> from <span class="bold">A serious guy</span></a>
+  <a class="companydemoLink projectheader HIDEO" href="javascript:;">From <span class="bold"> An Awesome Company</span></a>
+  <a class="taskdemolink projectheader2 HIDEO" href="javascript:;">A Demo Project</span></a>
   <div id="demoview" class="pageopenintimelinefancy pageopenintimelinefancyfirst">
   </div>
   <div id="userview" class="pageopenintimelinefancy pageopenintimelinefancytop">
@@ -394,6 +396,18 @@
           $("#CLOSETIMELINEOBJECT").removeClass("HIDEO");
           $("#CLOSETIMELINEOBJECT2").addClass("HIDEO");
           $(".userdemoLink").removeClass("HIDEO");
+          $(".pageopenintimelinefancyfirst").removeClass("HIDEO");
+          $(".pageopenintimelinefancytop").addClass("HIDEO");
+          $(".thetimelinepage").addClass("HIDEO");
+          window.scrollTo(0,0);
+        });
+    </script>
+    <script type="text/javascript">
+        $(".projectdemolink").on("click", function(){
+          $("#demoview").load("http://risepic-alpha.s3-website-us-west-2.amazonaws.com/projectpreviewdemotimeline.html");
+          $("#CLOSETIMELINEOBJECT").removeClass("HIDEO");
+          $("#CLOSETIMELINEOBJECT2").addClass("HIDEO");
+          $(".companydemoLink").removeClass("HIDEO");
           $(".pageopenintimelinefancyfirst").removeClass("HIDEO");
           $(".pageopenintimelinefancytop").addClass("HIDEO");
           $(".thetimelinepage").addClass("HIDEO");
@@ -449,6 +463,18 @@
         });
     </script>
     <script type="text/javascript">
+        $(".companydemoLink").on("click", function(){
+          $("#userview").load("http://risepic-alpha.s3-website-us-west-2.amazonaws.com/companydemoprofiletimeline.html");
+          $("#CLOSETIMELINEOBJECT").addClass("HIDEO");
+          $("#CLOSETIMELINEOBJECT2").removeClass("HIDEO");
+          $(".userdemoLink").addClass("HIDEO");
+          $(".pageopenintimelinefancytop").removeClass("HIDEO");
+          $(".pageopenintimelinefancyfirst").addClass("HIDEO");
+          $(".thetimelinepage").addClass("HIDEO");
+          window.scrollTo(0,0);
+        });
+    </script>
+    <script type="text/javascript">
           $("#CLOSETIMELINEOBJECT2").on("click", function(){
             $(".pageopenintimelinefancytop").addClass("HIDEO");
             $(".pageopenintimelinefancyfirst").removeClass("HIDEO");
@@ -460,6 +486,16 @@
     </script>
     <script type="text/javascript">
           $("#CLOSETIMELINEOBJECT").on("click", function(){
+            $(".pageopenintimelinefancyfirst").addClass("HIDEO");
+            $(".pageopenintimelinefancytop").addClass("HIDEO");
+            $(".userdemoLink").addClass("HIDEO");
+            $("#CLOSETIMELINEOBJECT").addClass("HIDEO");
+            $("#CLOSETIMELINEOBJECT2").addClass("HIDEO");
+            $(".thetimelinepage").removeClass("HIDEO");
+          });
+    </script>
+    <script type="text/javascript">
+          $(".projectdemolink").on("click", function(){
             $(".pageopenintimelinefancyfirst").addClass("HIDEO");
             $(".pageopenintimelinefancytop").addClass("HIDEO");
             $(".userdemoLink").addClass("HIDEO");
