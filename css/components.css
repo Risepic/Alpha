@@ -21,6 +21,7 @@ body > header {
   width: 30%;
   height: 40px;
   display: inline-block;
+  vertical-align: top;
 }
 .toolbarRisepic ul .Brandtoolbar {
   text-align: center;
