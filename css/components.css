@@ -23,8 +23,25 @@ body > header {
   display: inline-block;
   vertical-align: top;
 }
+.toolbarRisepic ul li input {
+  height: 38px;
+  width: 90%;
+  vertical-align: middle;
+  display: inline-block;
+  border: none;
+  background-color: #0000001a;
+  font-size: 20px;
+  color: #00000091;
+}
+.toolbarRisepic ul li input:hover {
+  color: #ffffff;
+  background-color: #08080894;
+}
 .toolbarRisepic ul .Brandtoolbar {
   text-align: center;
+}
+.toolbarRisepic ul .Searchimput {
+  text-align: left;
 }
 .toolbarRisepic ul li .brandsuntoolbar {
   width: 40px;
