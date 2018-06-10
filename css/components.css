@@ -10,6 +10,26 @@ body > header {
   z-index: 99;
   opacity: 1;
 }
+.toolbarRisepic ul {
+  width: 100%;
+  height: 40px;
+  padding: 5px 0 5px 0;
+  text-align: center;
+  display: inline-block;
+}
+.toolbarRisepic ul li {
+  width: 30%;
+  height: 40px;
+  display: inline-block;
+}
+.toolbarRisepic ul .Brandtoolbar {
+  text-align: center;
+}
+.toolbarRisepic ul li .brandsuntoolbar {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+}
 body > header:hover {
   opacity: 1;
 }
