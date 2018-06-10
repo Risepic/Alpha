@@ -33,9 +33,18 @@ body > header {
   font-size: 20px;
   color: #00000091;
 }
+.toolbarRisepic ul .Brandtoolbar img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.toolbarRisepic:hover ul .Brandtoolbar img {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
 .toolbarRisepic ul li input:hover,.toolbarRisepic ul li input:focus {
   color: #ffffff;
   background-color: #08080894;
+  border: none !important;
 }
 .toolbarRisepic ul .Brandtoolbar {
   text-align: center;
