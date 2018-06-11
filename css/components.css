@@ -41,6 +41,9 @@ body > header {
   -webkit-filter: grayscale(0%);
   filter: grayscale(0%);
 }
+.toolbarRisepic:hover ul .Searchimput input {
+  background-color: #00000047; 
+}
 .toolbarRisepic ul li input:hover,.toolbarRisepic ul li input:focus {
   color: #ffffff;
   background-color: #00000063;
