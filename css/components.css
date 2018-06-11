@@ -51,19 +51,17 @@ body > header {
   -webkit-filter: grayscale(0%);
   filter: grayscale(0%);
 }
-.toolbarRisepic:hover ul .Searchbtn {
-  -webkit-filter: grayscale(0%);
-  filter: grayscale(0%);
-  background-color: #00000047;
-}
-.toolbarRisepic:hover ul .Searchimput input {
-  background-color: #00000047;
-}
 .toolbarRisepic ul .Searchimput .Searchbtn {
   background-color: #0000001a;
   padding: 10px;
   font-size: 15px;
   vertical-align: middle;
+}
+.toolbarRisepic:hover ul .Searchbtn {
+  background-color: #00000047;
+}
+.toolbarRisepic:hover ul .Searchimput input {
+  background-color: #00000047;
 }
 .toolbarRisepic ul li input:hover,.toolbarRisepic ul li input:focus {
   color: #ffffff;
