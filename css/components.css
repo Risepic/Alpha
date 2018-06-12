@@ -359,6 +359,7 @@ footer:hover {
   padding: 80px 0 0 0;
   text-align: left;
   width: 60%;
+  /* @/* TODO:  */ background-color: #ffffff;
 }
 .taskprewboxstart-box {
   display: inline-block;
@@ -475,6 +476,12 @@ footer:hover {
   margin-top: 0;
   height: 700px;
 }
+.taskprewboxinfo-box .vbox-l-view {
+  width: 100%;
+  margin-top: 0;
+  height: 400px;
+}
+
 .pageopenintimelinefancy .prevtimelinebasicinfo {
   width: 65%;
   padding: 0.2% 2.5%;
