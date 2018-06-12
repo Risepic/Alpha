@@ -377,6 +377,23 @@ footer:hover {
   text-align: center;
   width: 100%;
 }
+.taskprewboxstart-box section h3 {
+  font-size: 25px;
+  color: #6b6b6b;
+}
+.taskprewboxstart-box section h3 span {
+  font-weight: bold;
+}
+.tasktiming {
+  font-size: 15px;
+}
+.btnstarttask {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 15px;
+  color: #000000;
+  background-color: #ffd800;
+}
 .profileboxinfo-box {
   display: block;
   padding: 80px 0 80px 0;
