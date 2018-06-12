@@ -481,6 +481,14 @@ footer:hover {
   margin: 20px auto;
   height: 282px;
 }
+.taskprewboxinfo-box h2 {
+  font-size: 30px;
+  color: #000000;
+}
+.taskprewboxinfo-box p {
+  font-size: 20px;
+  color: #000000;
+}
 
 .pageopenintimelinefancy .prevtimelinebasicinfo {
   width: 65%;
