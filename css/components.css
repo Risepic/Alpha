@@ -681,6 +681,10 @@ footer:hover {
   font-weight: bold;
   z-index: 30;
 }
+.projectheader img {
+  height: 20px;
+  width: 20px;
+}
 .projectheader2 {
   height: 20px;
   background-color: #ffffff;
