@@ -497,6 +497,8 @@ footer:hover {
     font-size: 12px;
     line-height: 1.2;
     color: #3a3a3a;
+    text-align: left;
+    display: inline-block;
 }
 .taskprewboxinfo-box header p {
   display: inline-block;
