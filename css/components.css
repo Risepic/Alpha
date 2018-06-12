@@ -493,8 +493,14 @@ footer:hover {
   font-weight: bold;
 }
 .taskprewboxinfo-box p {
-  font-size: 15px;
-  color: #000000;
+  display: inline-block;
+  width: 100%;
+  text-align: left;
+}
+.taskprewboxinfo-box > header > p > span {
+  font-size: 13px;
+  color: #ffffff;
+  background-color: #000000;
 }
 
 .pageopenintimelinefancy .prevtimelinebasicinfo {
