@@ -355,11 +355,19 @@ footer:hover {
   position: relative;
 }
 .taskprewboxinfo-box {
-  display: block;
-  padding: 80px 0 80px 0;
-  margin: 0 auto;
+  display: inline-block;
+  padding: 80px 0 0 0;
   text-align: left;
   width: 60%;
+}
+.taskprewboxstart-box {
+  display: inline-block;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 30%;
+  height: 100%;
+  overflow: hidden;
 }
 .profileboxinfo-box {
   display: block;
