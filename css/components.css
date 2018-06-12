@@ -356,7 +356,7 @@ footer:hover {
 }
 .taskprewboxinfo-box {
   display: inline-block;
-  padding: 80px 0 0 0;
+  padding: 80px 0 80px 0;
   text-align: center;
   width: 60%;
 }
@@ -368,6 +368,7 @@ footer:hover {
   width: 30%;
   height: 100%;
   overflow: hidden;
+  background-color: #ffffff;
 }
 .profileboxinfo-box {
   display: block;
