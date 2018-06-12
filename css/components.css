@@ -371,10 +371,11 @@ footer:hover {
   background-color: #ffffff;
 }
 .taskprewboxstart-box section {
-  padding: 80px 0 80px 0;
+  margin-top: 50%;
   vertical-align: middle;
   display: inline-block;
   text-align: center;
+  width: 100%;
 }
 .profileboxinfo-box {
   display: block;
