@@ -478,9 +478,12 @@ footer:hover {
 .taskprewboxinfo-box .vbox-l-view {
   width: 500px;
   margin: 20px auto;
+  height: 282px;
+}
+.taskprewboxinfo-box .vbox-l-view-i {
   height: auto;
 }
-.taskprewboxinfo-box .vbox-l-view img {
+.taskprewboxinfo-box .vbox-l-view-i img {
   width: 100;
   min-width: 100%;
   height: auto;
