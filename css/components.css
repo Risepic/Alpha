@@ -357,7 +357,7 @@ footer:hover {
 .taskprewboxinfo-box {
   display: inline-block;
   padding: 80px 0 0 0;
-  text-align: left;
+  text-align: center;
   width: 60%;
   /* @/* TODO:  */ background-color: #ffffff;
 }
@@ -477,7 +477,7 @@ footer:hover {
   height: 700px;
 }
 .taskprewboxinfo-box .vbox-l-view {
-  width: 100%;
+  width: 75%;
   margin-top: 0;
   height: 400px;
 }
