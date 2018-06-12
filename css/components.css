@@ -371,11 +371,12 @@ footer:hover {
   background-color: #ffffff;
 }
 .taskprewboxstart-box section {
-  margin-top: 50%;
   vertical-align: middle;
   display: inline-block;
   text-align: center;
   width: 100%;
+  position: absolute;
+  top: 50%;
 }
 .taskprewboxstart-box section h3 {
   font-size: 25px;
