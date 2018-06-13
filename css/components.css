@@ -386,11 +386,34 @@ footer:hover {
   top: 50%;
 }
 .taskprewboxstart-box section h3 {
-  font-size: 25px;
+  font-size: 30px;
   color: #6b6b6b;
 }
 .taskprewboxstart-box section h3 span {
   font-weight: bold;
+}
+.taskprewboxstart-box section h3 i {
+  font-size: 25px;
+}
+.taskprewboxstart-box section h4 {
+  font-size: 22px;
+  color: #6b6b6b;
+}
+.taskprewboxstart-box section h4 span {
+  font-weight: bold;
+}
+.taskprewboxstart-box section h4 i {
+  font-size: 17px
+}
+.taskprewboxstart-box section h5 {
+  font-size: 16px;
+  color: #6b6b6b;
+}
+.taskprewboxstart-box section h5 span {
+  font-weight: bold;
+}
+.taskprewboxstart-box section h5 i {
+  font-size: 12px
 }
 .tasktiming {
   font-size: 15px;
