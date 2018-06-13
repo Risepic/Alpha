@@ -385,6 +385,10 @@ footer:hover {
   position: absolute;
   top: 50%;
 }
+.taskprewboxstart-box section aside {
+  text-align: left;
+  display: inline-block;
+}
 .taskprewboxstart-box section h3 {
   font-size: 30px;
   color: #6b6b6b;
