@@ -79,6 +79,7 @@ $("#CLOSETIMELINEOBJECT2").on("click", function(){
   $(".pageopenintimelinefancytop").addClass("HIDEO");
   $(".pageopenintimelinefancyfirst").removeClass("HIDEO");
   $(".userdemoLink").removeClass("HIDEO");
+  $(".projectheader").addClass("HIDEO");
   $("#CLOSETIMELINEOBJECT").removeClass("HIDEO");
   $("#CLOSETIMELINEOBJECT2").addClass("HIDEO");
   $(".thetimelinepage").addClass("HIDEO");
@@ -88,6 +89,7 @@ $("#CLOSETIMELINEOBJECT").on("click", function(){
   $(".pageopenintimelinefancyfirst").addClass("HIDEO");
   $(".pageopenintimelinefancytop").addClass("HIDEO");
   $(".userdemoLink").addClass("HIDEO");
+  $(".projectheader").addClass("HIDEO");
   $("#CLOSETIMELINEOBJECT").addClass("HIDEO");
   $("#CLOSETIMELINEOBJECT2").addClass("HIDEO");
   $(".thetimelinepage").removeClass("HIDEO");

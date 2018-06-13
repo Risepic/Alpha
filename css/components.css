@@ -274,6 +274,12 @@ footer:hover {
   /* @/* TODO:  */ background-color: #ffffff;
   display: inline-block;
 }
+.i-box-xse {
+  width: 212px;
+  height: 350px;
+  /* @/* TODO:  */ background-color: #ffffff;
+  display: inline-block;
+}
 .l-box-s {
   width: 230px;
   height: 280px;
@@ -1104,10 +1110,12 @@ footer .FOOTBACK {
   font-weight: bold;
 }
 .pageopenintimelinefancy .timeline-m .i-box-xs,
+.pageopenintimelinefancy .timeline-m .i-box-xse,
 .pageopenintimelinefancy .timeline-m .i-box-s {
   /* @/* TODO:  */ background-color: #e1e1e1 !important;
 }
 .thetimelinepage .timeline-XL .i-box-xs,
+.thetimelinepage .timeline-XL .i-box-xse,
 .thetimelinepage .timeline-XL .i-box-s,
 .thetimelinepage .timeline-XL .i-box-m {
   margin: 5px 2px;
