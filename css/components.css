@@ -388,6 +388,7 @@ footer:hover {
 .taskprewboxstart-box section aside {
   text-align: left;
   display: inline-block;
+  margin-bottom: 50px;
 }
 .taskprewboxstart-box section h3 {
   font-size: 30px;
