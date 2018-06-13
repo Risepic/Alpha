@@ -75,6 +75,17 @@ $(".challangedemolink").on("click", function(){
   window.scrollTo(0,0);
 });
 
+$(".projectdemolink").on("click", function(){
+  $("#demoview").load("http://risepic-alpha.s3-website-us-west-2.amazonaws.com/projectpreviewdemotimeline.html");
+  $("#CLOSETIMELINEOBJECT").removeClass("HIDEO");
+  $("#CLOSETIMELINEOBJECT2").addClass("HIDEO");
+  $(".companydemoLink").removeClass("HIDEO");
+  $(".pageopenintimelinefancyfirst").removeClass("HIDEO");
+  $(".pageopenintimelinefancytop").addClass("HIDEO");
+  $(".thetimelinepage").addClass("HIDEO");
+  window.scrollTo(0,0);
+});
+
 $(".companydemoLink").on("click", function(){
   $("#userview").load("http://risepic-alpha.s3-website-us-west-2.amazonaws.com/companydemoprofiletimeline.html");
   $("#CLOSETIMELINEOBJECT").addClass("HIDEO");
