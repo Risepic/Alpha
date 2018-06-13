@@ -427,8 +427,8 @@ footer:hover {
   top: 150px !important;
 }
 .projectprewboxinfo-box video {
-  width: 100%;
-  height: 700px;
+  width: 100% !important;
+  height: 700px !important;
 }
 .tasktiming {
   font-size: 15px;
