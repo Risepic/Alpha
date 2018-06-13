@@ -422,6 +422,9 @@ footer:hover {
 .taskprewboxstart-box section h5 i {
   font-size: 8px
 }
+.challangeprewboxstart-box {
+  top: 100px;
+}
 .tasktiming {
   font-size: 15px;
   margin: 6px 0 30px 0;
