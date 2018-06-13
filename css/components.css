@@ -424,7 +424,7 @@ footer:hover {
   font-size: 8px
 }
 .challangeprewboxstart-box {
-  top: 100px;
+  top: 150px !important;
 }
 .tasktiming {
   font-size: 15px;
