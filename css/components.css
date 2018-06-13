@@ -426,9 +426,14 @@ footer:hover {
 .challangeprewboxstart-box {
   top: 150px !important;
 }
+.projectprewboxinfo-box {
+  padding: 0px 0 80px 0 !important;
+  width: 70% !important; 
+}
 .projectprewboxinfo-box video {
   width: 100% !important;
   height: 700px !important;
+  margin: 0 !important;
 }
 .tasktiming {
   font-size: 15px;
