@@ -9,17 +9,6 @@ $(".videocoursedemoLink").on("click", function(){
   window.scrollTo(0,0);
 });
 
-$(".taskdemolink").on("click", function(){
-  $("#demoview").load("http://risepic-alpha.s3-website-us-west-2.amazonaws.com/taskpreviewdemotimeline.html");
-  $("#CLOSETIMELINEOBJECT").removeClass("HIDEO");
-  $("#CLOSETIMELINEOBJECT2").addClass("HIDEO");
-  $(".companydemoLink").removeClass("HIDEO");
-  $(".pageopenintimelinefancyfirst").removeClass("HIDEO");
-  $(".pageopenintimelinefancytop").addClass("HIDEO");
-  $(".thetimelinepage").addClass("HIDEO");
-  window.scrollTo(0,0);
-});
-
 $(".audioslidedemoLink").on("click", function(){
   $("#demoview").load("http://risepic-alpha.s3-website-us-west-2.amazonaws.com/audioslidepreviewdemotimeline.html");
   $("#CLOSETIMELINEOBJECT").removeClass("HIDEO");
@@ -60,6 +49,28 @@ $(".userdemoLink").on("click", function(){
   $(".userdemoLink").addClass("HIDEO");
   $(".pageopenintimelinefancytop").removeClass("HIDEO");
   $(".pageopenintimelinefancyfirst").addClass("HIDEO");
+  $(".thetimelinepage").addClass("HIDEO");
+  window.scrollTo(0,0);
+});
+
+$(".taskdemolink").on("click", function(){
+  $("#demoview").load("http://risepic-alpha.s3-website-us-west-2.amazonaws.com/taskpreviewdemotimeline.html");
+  $("#CLOSETIMELINEOBJECT").removeClass("HIDEO");
+  $("#CLOSETIMELINEOBJECT2").addClass("HIDEO");
+  $(".companydemoLink").removeClass("HIDEO");
+  $(".pageopenintimelinefancyfirst").removeClass("HIDEO");
+  $(".pageopenintimelinefancytop").addClass("HIDEO");
+  $(".thetimelinepage").addClass("HIDEO");
+  window.scrollTo(0,0);
+});
+
+$(".challangedemolink").on("click", function(){
+  $("#demoview").load("http://risepic-alpha.s3-website-us-west-2.amazonaws.com/challangepreviewdemotimeline.html");
+  $("#CLOSETIMELINEOBJECT").removeClass("HIDEO");
+  $("#CLOSETIMELINEOBJECT2").addClass("HIDEO");
+  $(".companydemoLink").removeClass("HIDEO");
+  $(".pageopenintimelinefancyfirst").removeClass("HIDEO");
+  $(".pageopenintimelinefancytop").addClass("HIDEO");
   $(".thetimelinepage").addClass("HIDEO");
   window.scrollTo(0,0);
 });
