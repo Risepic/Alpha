@@ -468,6 +468,7 @@ footer:hover {
   display: inline-block;
   margin-top: 20px;
   padding: 10px;
+  margin-bottom: 20px;
 }
 .projectprewboxstart-box section ul {
   text-align: left;
@@ -477,8 +478,22 @@ footer:hover {
   width: 100%;
   margin-bottom: 15px;
 }
-.projectprewboxstart-box section ul li i {
+.projectprewboxstart-box section ul li .explainerproject {
+  width: 42%;
+  display: inline-block;
+}
+.projectprewboxstart-box section ul li .revenuesproject {
+  width: 25%;
+  display: inline-block;
+}
+.projectprewboxstart-box section ul li a {
   width: 10%;
+  margin-left: 2%
+  display: inline-block;
+  text-align: center;
+}
+.projectprewboxstart-box section ul li i {
+  width: 7%;
   display: inline-block;
   vertical-align: middle;
   text-align: center;
