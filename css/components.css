@@ -502,15 +502,17 @@ footer:hover {
   width: 80%;
 }
 .projectprewboxstart-box section ul li p {
-  font-size: 11px;
+  font-size: 10px;
   padding: 0;
   display: inline-block;
   width: 100%;
+  margin-top: 10px;
 }
 .projectprewboxstart-box section ul li p span {
   color: #ffffff;
   background-color: #000000;
-  padding: 2px 5px;
+  padding: 1px 5px;
+  font-weight: bold;
 }
 
 .projectprewboxstart-box section ul li i {
