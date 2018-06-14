@@ -488,7 +488,7 @@ footer:hover {
 }
 .projectprewboxstart-box section ul li a {
   width: 10%;
-  margin-left: 2%
+  margin-left: 2%;
   display: inline-block;
   text-align: center;
   background-color: #ffd800;
@@ -510,14 +510,13 @@ footer:hover {
 .projectprewboxstart-box section ul li p span {
   color: #ffffff;
   background-color: #000000;
-  padding: 5px;
+  padding: 2px 5px;
 }
 
 .projectprewboxstart-box section ul li i {
-  width: 7%;
   display: inline-block;
   vertical-align: middle;
-  text-align: center;
+  font-size: 14px;
 }
 .PROGRESSUP {
   width: 100%;
