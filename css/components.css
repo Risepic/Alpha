@@ -479,7 +479,7 @@ footer:hover {
   margin-bottom: 15px;
 }
 .projectprewboxstart-box section ul li .explainerproject {
-  width: 42%;
+  width: 58%;
   display: inline-block;
 }
 .projectprewboxstart-box section ul li .revenuesproject {
@@ -495,14 +495,14 @@ footer:hover {
   color: #000000;
 }
 .projectprewboxstart-box section ul li h5 {
-  font-size: 18px;
+  font-size: 14px;
   color: #000000;
   padding: 0;
   display: inline-block;
-  width: 100%;
+  width: 80%;
 }
 .projectprewboxstart-box section ul li p {
-  font-size: 14px;
+  font-size: 11px;
   padding: 0;
   display: inline-block;
   width: 100%;
@@ -515,8 +515,8 @@ footer:hover {
 
 .projectprewboxstart-box section ul li i {
   display: inline-block;
-  vertical-align: middle;
-  font-size: 14px;
+  vertical-align: top;
+  font-size: 10px;
 }
 .PROGRESSUP {
   width: 100%;
