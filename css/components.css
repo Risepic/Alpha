@@ -491,7 +491,28 @@ footer:hover {
   margin-left: 2%
   display: inline-block;
   text-align: center;
+  background-color: #ffd800;
+  color: #000000;
 }
+.projectprewboxstart-box section ul li h5 {
+  font-size: 18px;
+  color: #000000;
+  padding: 0;
+  display: inline-block;
+  width: 100%;
+}
+.projectprewboxstart-box section ul li p {
+  font-size: 14px;
+  padding: 0;
+  display: inline-block;
+  width: 100%;
+}
+.projectprewboxstart-box section ul li p span {
+  color: #ffffff;
+  background-color: #000000;
+  padding: 5px;
+}
+
 .projectprewboxstart-box section ul li i {
   width: 7%;
   display: inline-block;
