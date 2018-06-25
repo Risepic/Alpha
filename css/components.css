@@ -463,7 +463,6 @@ footer:hover {
 }
 .projectprewboxstart-box section h4 {
   font-size: 22px;
-  background-color: #0eb50f;
   color: #000000;
   display: inline-block;
   margin-top: 20px;
@@ -502,6 +501,7 @@ footer:hover {
   padding: 0;
   display: inline-block;
   width: 80%;
+  margin-left: 7%;
 }
 .projectprewboxstart-box section ul li .explainerproject p {
   font-size: 10px;
@@ -522,6 +522,11 @@ footer:hover {
   display: inline-block;
   vertical-align: top;
   font-size: 10px;
+  display: inline-block;
+  font-size: 10px;
+  position: absolute;
+  top: 25%;
+  left: 0;
 }
 .PROGRESSUP {
   width: 100%;
