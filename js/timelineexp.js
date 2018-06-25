@@ -1,5 +1,5 @@
 $(".videocoursedemoLink").on("click", function(){
-  $("#demoview").load("http://risepic-alpha.s3-website-us-west-2.amazonaws.com/vcoursepreviewdemotimeline.html");
+  $("#demoview").load("http://risepic.network/timelineEXT/vcoursepreviewdemotimeline.html");
   $("#CLOSETIMELINEOBJECT").removeClass("HIDEO");
   $("#CLOSETIMELINEOBJECT2").addClass("HIDEO");
   $(".userdemoLink").removeClass("HIDEO");
@@ -10,7 +10,7 @@ $(".videocoursedemoLink").on("click", function(){
 });
 
 $(".audioslidedemoLink").on("click", function(){
-  $("#demoview").load("http://risepic-alpha.s3-website-us-west-2.amazonaws.com/audioslidepreviewdemotimeline.html");
+  $("#demoview").load("http://risepic.network/timelineEXT/audioslidepreviewdemotimeline.html");
   $("#CLOSETIMELINEOBJECT").removeClass("HIDEO");
   $("#CLOSETIMELINEOBJECT2").addClass("HIDEO");
   $(".userdemoLink").removeClass("HIDEO");
@@ -21,7 +21,7 @@ $(".audioslidedemoLink").on("click", function(){
 });
 
 $(".audiovrdemoLink").on("click", function(){
-  $("#demoview").load("http://risepic-alpha.s3-website-us-west-2.amazonaws.com/audiovrpreviewdemotimeline.html");
+  $("#demoview").load("http://risepic.network/timelineEXT/audiovrpreviewdemotimeline.html");
   $("#CLOSETIMELINEOBJECT").removeClass("HIDEO");
   $("#CLOSETIMELINEOBJECT2").addClass("HIDEO");
   $(".userdemoLink").removeClass("HIDEO");
@@ -32,7 +32,7 @@ $(".audiovrdemoLink").on("click", function(){
 });
 
 $(".bookdemoLink").on("click", function(){
-  $("#demoview").load("http://risepic-alpha.s3-website-us-west-2.amazonaws.com/bookpreviewdemotimeline.html");
+  $("#demoview").load("http://risepic.network/timelineEXT/bookpreviewdemotimeline.html");
   $("#CLOSETIMELINEOBJECT").removeClass("HIDEO");
   $("#CLOSETIMELINEOBJECT2").addClass("HIDEO");
   $(".userdemoLink").removeClass("HIDEO");
@@ -43,7 +43,7 @@ $(".bookdemoLink").on("click", function(){
 });
 
 $(".userdemoLink").on("click", function(){
-  $("#userview").load("http://risepic-alpha.s3-website-us-west-2.amazonaws.com/userdemoprofiletimeline.html");
+  $("#userview").load("http://risepic.network/timelineEXT/userdemoprofiletimeline.html");
   $("#CLOSETIMELINEOBJECT").addClass("HIDEO");
   $("#CLOSETIMELINEOBJECT2").removeClass("HIDEO");
   $(".userdemoLink").addClass("HIDEO");
@@ -54,7 +54,7 @@ $(".userdemoLink").on("click", function(){
 });
 
 $(".taskdemolink").on("click", function(){
-  $("#demoview").load("http://risepic-alpha.s3-website-us-west-2.amazonaws.com/taskpreviewdemotimeline.html");
+  $("#demoview").load("http://risepic.network/timelineEXT/taskpreviewdemotimeline.html");
   $("#CLOSETIMELINEOBJECT").removeClass("HIDEO");
   $("#CLOSETIMELINEOBJECT2").addClass("HIDEO");
   $(".companydemoLink").removeClass("HIDEO");
@@ -65,7 +65,7 @@ $(".taskdemolink").on("click", function(){
 });
 
 $(".challangedemolink").on("click", function(){
-  $("#demoview").load("http://risepic-alpha.s3-website-us-west-2.amazonaws.com/challangepreviewdemotimeline.html");
+  $("#demoview").load("http://risepic.network/timelineEXT/challangepreviewdemotimeline.html");
   $("#CLOSETIMELINEOBJECT").removeClass("HIDEO");
   $("#CLOSETIMELINEOBJECT2").addClass("HIDEO");
   $(".companydemoLink").removeClass("HIDEO");
@@ -76,7 +76,7 @@ $(".challangedemolink").on("click", function(){
 });
 
 $(".projectdemolink").on("click", function(){
-  $("#demoview").load("http://risepic-alpha.s3-website-us-west-2.amazonaws.com/projectpreviewdemotimeline.html");
+  $("#demoview").load("http://risepic.network/timelineEXT/projectpreviewdemotimeline.html");
   $("#CLOSETIMELINEOBJECT").removeClass("HIDEO");
   $("#CLOSETIMELINEOBJECT2").addClass("HIDEO");
   $(".companydemoLink").removeClass("HIDEO");
@@ -87,7 +87,7 @@ $(".projectdemolink").on("click", function(){
 });
 
 $(".companydemoLink").on("click", function(){
-  $("#userview").load("http://risepic-alpha.s3-website-us-west-2.amazonaws.com/companydemoprofiletimeline.html");
+  $("#userview").load("http://risepic.network/timelineEXT/companydemoprofiletimeline.html");
   $("#CLOSETIMELINEOBJECT").addClass("HIDEO");
   $("#CLOSETIMELINEOBJECT2").removeClass("HIDEO");
   $(".userdemoLink").addClass("HIDEO");
